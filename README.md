@@ -19,3 +19,34 @@ Data is retrieved from the [Bureau of Labor Statistics (BLS) Public Data API](ht
 - **Altair / Plotly** – data visualization (line charts, summary metrics)
 
 ## Project Structure
+us-labor-dashboard/
+├── data/ # Historical and updated BLS datasets
+├── scripts/ # Python scripts to fetch and clean data
+├── dashboard/ # Streamlit app
+├── .github/ # GitHub Actions workflow
+├── README.md # Project overview
+└── requirements.txt # Python dependencies
+
+
+## Getting Started
+1. Clone the repository:
+   git clone https://github.com/<your-username>/us-labor-dashboard.git
+
+2. Install Python Dependencies:
+   pip install -r requirements.txt
+
+3. Run the Streamlit dashboard locally:
+   streamlit run dashboard/app.py
+
+## Deliverables
+- Live Streamlit dashboard hosted via Streamlit Community Cloud
+- GitHub repository containing source code and data
+- Recorded presentation demonstrating dashboard features
+- Written report summarizing methodology and key findings
+
+## Future Work
+- Add more BLS series for deeper labor market insights
+- Incorporate forecasting or trend analysis
+- Improve interactive features and visualizations
+
+
