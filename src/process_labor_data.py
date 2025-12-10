@@ -1,20 +1,21 @@
-#load libraries
+# Load libraries
 import requests
 import json
 import pandas as pd
 import os
 from datetime import datetime
 
-#Ensure data folder exists
+# Ensure data folder exists
 os.makedirs('data', exist_ok=True)
 
-#Master CSV path
-MASTER_FILE = 'data/labor_data_master.csv'
+# File paths
+MASTER_FILE = 'data/labor_data_master.csv'  # The master CSV
+RAW_FILE = 'data/labor_data.csv'            # Optional raw CSV to include
 
-#BLS API key
+# BLS API key
 API_KEY = 'fe5517b08aec4f7da63b911b04a549aa'
 
-#Series IDs to pull
+# Series IDs to pull
 series_ids = {
     'Total Nonfarm Employment': 'CES0000000001',
     'Unemployment Rate (SA)': 'LNS14000000',
@@ -23,8 +24,7 @@ series_ids = {
     'CPI-U': 'CUUR0000SA0'
 }
 
-#FUNCTIONS
-
+# FUNCTIONS
 def fetch_bls_data(series_ids, start_year=2010):
     """Fetch BLS data for all series"""
     end_year = datetime.now().year
@@ -57,16 +57,19 @@ def fetch_bls_data(series_ids, start_year=2010):
     df = pd.DataFrame(all_data)
     df = df.sort_values(['Series', 'Date']).reset_index(drop=True)
     return df
-  
-#LOAD OR CREATE MASTER FILE
 
+# LOAD MASTER FILE
 if os.path.exists(MASTER_FILE):
     master_df = pd.read_csv(MASTER_FILE, parse_dates=['Date'])
 else:
     master_df = pd.DataFrame(columns=['Date', 'Series', 'Value'])
 
-#FETCH NEW DATA
-#Determine start year: either 2000 or last year in master
+# OPTIONAL: Merge raw CSV if it exists
+if os.path.exists(RAW_FILE):
+    raw_df = pd.read_csv(RAW_FILE, parse_dates=['Date'])
+    master_df = pd.concat([master_df, raw_df]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
+
+# FETCH NEW DATA
 if not master_df.empty:
     last_year_in_master = master_df['Date'].dt.year.max()
     start_year = last_year_in_master
@@ -75,9 +78,9 @@ else:
 
 new_data = fetch_bls_data(series_ids, start_year=start_year)
 
-#COMBINE DATA INTO MASTER
+# COMBINE DATA INTO MASTER
 combined_df = pd.concat([master_df, new_data]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
 
-#SAVE MASTER FILE
+# SAVE MASTER FILE
 combined_df.to_csv(MASTER_FILE, index=False)
 print(f"Master file updated: {MASTER_FILE} ({len(combined_df)} rows)")
