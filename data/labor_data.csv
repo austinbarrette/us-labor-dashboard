@@ -1,1 +1,946 @@
-print("csv1")
+Date,Series,Value
+2010-01-01,Average Hourly Earnings Private,22.41
+2010-02-01,Average Hourly Earnings Private,22.46
+2010-03-01,Average Hourly Earnings Private,22.46
+2010-04-01,Average Hourly Earnings Private,22.49
+2010-05-01,Average Hourly Earnings Private,22.51
+2010-06-01,Average Hourly Earnings Private,22.53
+2010-07-01,Average Hourly Earnings Private,22.59
+2010-08-01,Average Hourly Earnings Private,22.62
+2010-09-01,Average Hourly Earnings Private,22.67
+2010-10-01,Average Hourly Earnings Private,22.74
+2010-11-01,Average Hourly Earnings Private,22.73
+2010-12-01,Average Hourly Earnings Private,22.76
+2011-01-01,Average Hourly Earnings Private,22.87
+2011-02-01,Average Hourly Earnings Private,22.87
+2011-03-01,Average Hourly Earnings Private,22.87
+2011-04-01,Average Hourly Earnings Private,22.91
+2011-05-01,Average Hourly Earnings Private,22.97
+2011-06-01,Average Hourly Earnings Private,23.01
+2011-07-01,Average Hourly Earnings Private,23.11
+2011-08-01,Average Hourly Earnings Private,23.07
+2011-09-01,Average Hourly Earnings Private,23.11
+2011-10-01,Average Hourly Earnings Private,23.18
+2011-11-01,Average Hourly Earnings Private,23.19
+2011-12-01,Average Hourly Earnings Private,23.22
+2012-01-01,Average Hourly Earnings Private,23.26
+2012-02-01,Average Hourly Earnings Private,23.28
+2012-03-01,Average Hourly Earnings Private,23.36
+2012-04-01,Average Hourly Earnings Private,23.38
+2012-05-01,Average Hourly Earnings Private,23.41
+2012-06-01,Average Hourly Earnings Private,23.46
+2012-07-01,Average Hourly Earnings Private,23.49
+2012-08-01,Average Hourly Earnings Private,23.49
+2012-09-01,Average Hourly Earnings Private,23.57
+2012-10-01,Average Hourly Earnings Private,23.56
+2012-11-01,Average Hourly Earnings Private,23.63
+2012-12-01,Average Hourly Earnings Private,23.72
+2013-01-01,Average Hourly Earnings Private,23.75
+2013-02-01,Average Hourly Earnings Private,23.77
+2013-03-01,Average Hourly Earnings Private,23.8
+2013-04-01,Average Hourly Earnings Private,23.87
+2013-05-01,Average Hourly Earnings Private,23.89
+2013-06-01,Average Hourly Earnings Private,23.96
+2013-07-01,Average Hourly Earnings Private,23.98
+2013-08-01,Average Hourly Earnings Private,24.02
+2013-09-01,Average Hourly Earnings Private,24.06
+2013-10-01,Average Hourly Earnings Private,24.09
+2013-11-01,Average Hourly Earnings Private,24.16
+2013-12-01,Average Hourly Earnings Private,24.18
+2014-01-01,Average Hourly Earnings Private,24.23
+2014-02-01,Average Hourly Earnings Private,24.33
+2014-03-01,Average Hourly Earnings Private,24.31
+2014-04-01,Average Hourly Earnings Private,24.34
+2014-05-01,Average Hourly Earnings Private,24.4
+2014-06-01,Average Hourly Earnings Private,24.46
+2014-07-01,Average Hourly Earnings Private,24.48
+2014-08-01,Average Hourly Earnings Private,24.54
+2014-09-01,Average Hourly Earnings Private,24.55
+2014-10-01,Average Hourly Earnings Private,24.58
+2014-11-01,Average Hourly Earnings Private,24.66
+2014-12-01,Average Hourly Earnings Private,24.63
+2015-01-01,Average Hourly Earnings Private,24.75
+2015-02-01,Average Hourly Earnings Private,24.8
+2015-03-01,Average Hourly Earnings Private,24.85
+2015-04-01,Average Hourly Earnings Private,24.89
+2015-05-01,Average Hourly Earnings Private,24.97
+2015-06-01,Average Hourly Earnings Private,24.97
+2015-07-01,Average Hourly Earnings Private,25.01
+2015-08-01,Average Hourly Earnings Private,25.09
+2015-09-01,Average Hourly Earnings Private,25.11
+2015-10-01,Average Hourly Earnings Private,25.2
+2015-11-01,Average Hourly Earnings Private,25.25
+2015-12-01,Average Hourly Earnings Private,25.25
+2016-01-01,Average Hourly Earnings Private,25.37
+2016-02-01,Average Hourly Earnings Private,25.38
+2016-03-01,Average Hourly Earnings Private,25.45
+2016-04-01,Average Hourly Earnings Private,25.53
+2016-05-01,Average Hourly Earnings Private,25.58
+2016-06-01,Average Hourly Earnings Private,25.62
+2016-07-01,Average Hourly Earnings Private,25.69
+2016-08-01,Average Hourly Earnings Private,25.71
+2016-09-01,Average Hourly Earnings Private,25.77
+2016-10-01,Average Hourly Earnings Private,25.9
+2016-11-01,Average Hourly Earnings Private,25.9
+2016-12-01,Average Hourly Earnings Private,25.93
+2017-01-01,Average Hourly Earnings Private,26.0
+2017-02-01,Average Hourly Earnings Private,26.07
+2017-03-01,Average Hourly Earnings Private,26.11
+2017-04-01,Average Hourly Earnings Private,26.17
+2017-05-01,Average Hourly Earnings Private,26.21
+2017-06-01,Average Hourly Earnings Private,26.26
+2017-07-01,Average Hourly Earnings Private,26.35
+2017-08-01,Average Hourly Earnings Private,26.37
+2017-09-01,Average Hourly Earnings Private,26.49
+2017-10-01,Average Hourly Earnings Private,26.5
+2017-11-01,Average Hourly Earnings Private,26.54
+2017-12-01,Average Hourly Earnings Private,26.63
+2018-01-01,Average Hourly Earnings Private,26.72
+2018-02-01,Average Hourly Earnings Private,26.74
+2018-03-01,Average Hourly Earnings Private,26.85
+2018-04-01,Average Hourly Earnings Private,26.91
+2018-05-01,Average Hourly Earnings Private,26.98
+2018-06-01,Average Hourly Earnings Private,27.03
+2018-07-01,Average Hourly Earnings Private,27.1
+2018-08-01,Average Hourly Earnings Private,27.21
+2018-09-01,Average Hourly Earnings Private,27.32
+2018-10-01,Average Hourly Earnings Private,27.37
+2018-11-01,Average Hourly Earnings Private,27.44
+2018-12-01,Average Hourly Earnings Private,27.56
+2019-01-01,Average Hourly Earnings Private,27.59
+2019-02-01,Average Hourly Earnings Private,27.69
+2019-03-01,Average Hourly Earnings Private,27.77
+2019-04-01,Average Hourly Earnings Private,27.79
+2019-05-01,Average Hourly Earnings Private,27.88
+2019-06-01,Average Hourly Earnings Private,27.96
+2019-07-01,Average Hourly Earnings Private,28.03
+2019-08-01,Average Hourly Earnings Private,28.14
+2019-09-01,Average Hourly Earnings Private,28.16
+2019-10-01,Average Hourly Earnings Private,28.23
+2019-11-01,Average Hourly Earnings Private,28.34
+2019-12-01,Average Hourly Earnings Private,28.38
+2020-01-01,Average Hourly Earnings Private,28.43
+2020-02-01,Average Hourly Earnings Private,28.54
+2020-03-01,Average Hourly Earnings Private,28.74
+2020-04-01,Average Hourly Earnings Private,30.04
+2020-05-01,Average Hourly Earnings Private,29.72
+2020-06-01,Average Hourly Earnings Private,29.38
+2020-07-01,Average Hourly Earnings Private,29.39
+2020-08-01,Average Hourly Earnings Private,29.5
+2020-09-01,Average Hourly Earnings Private,29.51
+2020-10-01,Average Hourly Earnings Private,29.55
+2020-11-01,Average Hourly Earnings Private,29.64
+2020-12-01,Average Hourly Earnings Private,29.91
+2021-01-01,Average Hourly Earnings Private,29.92
+2021-02-01,Average Hourly Earnings Private,30.07
+2021-03-01,Average Hourly Earnings Private,30.04
+2021-04-01,Average Hourly Earnings Private,30.23
+2021-05-01,Average Hourly Earnings Private,30.41
+2021-06-01,Average Hourly Earnings Private,30.55
+2021-07-01,Average Hourly Earnings Private,30.66
+2021-08-01,Average Hourly Earnings Private,30.79
+2021-09-01,Average Hourly Earnings Private,30.96
+2021-10-01,Average Hourly Earnings Private,31.15
+2021-11-01,Average Hourly Earnings Private,31.25
+2021-12-01,Average Hourly Earnings Private,31.41
+2022-01-01,Average Hourly Earnings Private,31.62
+2022-02-01,Average Hourly Earnings Private,31.66
+2022-03-01,Average Hourly Earnings Private,31.82
+2022-04-01,Average Hourly Earnings Private,31.96
+2022-05-01,Average Hourly Earnings Private,32.1
+2022-06-01,Average Hourly Earnings Private,32.2
+2022-07-01,Average Hourly Earnings Private,32.35
+2022-08-01,Average Hourly Earnings Private,32.44
+2022-09-01,Average Hourly Earnings Private,32.55
+2022-10-01,Average Hourly Earnings Private,32.7
+2022-11-01,Average Hourly Earnings Private,32.84
+2022-12-01,Average Hourly Earnings Private,32.96
+2023-01-01,Average Hourly Earnings Private,33.05
+2023-02-01,Average Hourly Earnings Private,33.16
+2023-03-01,Average Hourly Earnings Private,33.28
+2023-04-01,Average Hourly Earnings Private,33.42
+2023-05-01,Average Hourly Earnings Private,33.52
+2023-06-01,Average Hourly Earnings Private,33.69
+2023-07-01,Average Hourly Earnings Private,33.84
+2023-08-01,Average Hourly Earnings Private,33.89
+2023-09-01,Average Hourly Earnings Private,33.99
+2023-10-01,Average Hourly Earnings Private,34.07
+2023-11-01,Average Hourly Earnings Private,34.19
+2023-12-01,Average Hourly Earnings Private,34.31
+2024-01-01,Average Hourly Earnings Private,34.47
+2024-02-01,Average Hourly Earnings Private,34.54
+2024-03-01,Average Hourly Earnings Private,34.67
+2024-04-01,Average Hourly Earnings Private,34.75
+2024-05-01,Average Hourly Earnings Private,34.89
+2024-06-01,Average Hourly Earnings Private,35.0
+2024-07-01,Average Hourly Earnings Private,35.07
+2024-08-01,Average Hourly Earnings Private,35.23
+2024-09-01,Average Hourly Earnings Private,35.33
+2024-10-01,Average Hourly Earnings Private,35.48
+2024-11-01,Average Hourly Earnings Private,35.61
+2024-12-01,Average Hourly Earnings Private,35.68
+2025-01-01,Average Hourly Earnings Private,35.83
+2025-02-01,Average Hourly Earnings Private,35.9
+2025-03-01,Average Hourly Earnings Private,36.02
+2025-04-01,Average Hourly Earnings Private,36.08
+2025-05-01,Average Hourly Earnings Private,36.23
+2025-06-01,Average Hourly Earnings Private,36.31
+2025-07-01,Average Hourly Earnings Private,36.43
+2025-08-01,Average Hourly Earnings Private,36.58
+2025-09-01,Average Hourly Earnings Private,36.67
+2010-01-01,CPI-U,216.687
+2010-02-01,CPI-U,216.741
+2010-03-01,CPI-U,217.631
+2010-04-01,CPI-U,218.009
+2010-05-01,CPI-U,218.178
+2010-06-01,CPI-U,217.965
+2010-07-01,CPI-U,218.011
+2010-08-01,CPI-U,218.312
+2010-09-01,CPI-U,218.439
+2010-10-01,CPI-U,218.711
+2010-11-01,CPI-U,218.803
+2010-12-01,CPI-U,219.179
+2011-01-01,CPI-U,220.223
+2011-02-01,CPI-U,221.309
+2011-03-01,CPI-U,223.467
+2011-04-01,CPI-U,224.906
+2011-05-01,CPI-U,225.964
+2011-06-01,CPI-U,225.722
+2011-07-01,CPI-U,225.922
+2011-08-01,CPI-U,226.545
+2011-09-01,CPI-U,226.889
+2011-10-01,CPI-U,226.421
+2011-11-01,CPI-U,226.23
+2011-12-01,CPI-U,225.672
+2012-01-01,CPI-U,226.665
+2012-02-01,CPI-U,227.663
+2012-03-01,CPI-U,229.392
+2012-04-01,CPI-U,230.085
+2012-05-01,CPI-U,229.815
+2012-06-01,CPI-U,229.478
+2012-07-01,CPI-U,229.104
+2012-08-01,CPI-U,230.379
+2012-09-01,CPI-U,231.407
+2012-10-01,CPI-U,231.317
+2012-11-01,CPI-U,230.221
+2012-12-01,CPI-U,229.601
+2013-01-01,CPI-U,230.28
+2013-02-01,CPI-U,232.166
+2013-03-01,CPI-U,232.773
+2013-04-01,CPI-U,232.531
+2013-05-01,CPI-U,232.945
+2013-06-01,CPI-U,233.504
+2013-07-01,CPI-U,233.596
+2013-08-01,CPI-U,233.877
+2013-09-01,CPI-U,234.149
+2013-10-01,CPI-U,233.546
+2013-11-01,CPI-U,233.069
+2013-12-01,CPI-U,233.049
+2014-01-01,CPI-U,233.916
+2014-02-01,CPI-U,234.781
+2014-03-01,CPI-U,236.293
+2014-04-01,CPI-U,237.072
+2014-05-01,CPI-U,237.9
+2014-06-01,CPI-U,238.343
+2014-07-01,CPI-U,238.25
+2014-08-01,CPI-U,237.852
+2014-09-01,CPI-U,238.031
+2014-10-01,CPI-U,237.433
+2014-11-01,CPI-U,236.151
+2014-12-01,CPI-U,234.812
+2015-01-01,CPI-U,233.707
+2015-02-01,CPI-U,234.722
+2015-03-01,CPI-U,236.119
+2015-04-01,CPI-U,236.599
+2015-05-01,CPI-U,237.805
+2015-06-01,CPI-U,238.638
+2015-07-01,CPI-U,238.654
+2015-08-01,CPI-U,238.316
+2015-09-01,CPI-U,237.945
+2015-10-01,CPI-U,237.838
+2015-11-01,CPI-U,237.336
+2015-12-01,CPI-U,236.525
+2016-01-01,CPI-U,236.916
+2016-02-01,CPI-U,237.111
+2016-03-01,CPI-U,238.132
+2016-04-01,CPI-U,239.261
+2016-05-01,CPI-U,240.229
+2016-06-01,CPI-U,241.018
+2016-07-01,CPI-U,240.628
+2016-08-01,CPI-U,240.849
+2016-09-01,CPI-U,241.428
+2016-10-01,CPI-U,241.729
+2016-11-01,CPI-U,241.353
+2016-12-01,CPI-U,241.432
+2017-01-01,CPI-U,242.839
+2017-02-01,CPI-U,243.603
+2017-03-01,CPI-U,243.801
+2017-04-01,CPI-U,244.524
+2017-05-01,CPI-U,244.733
+2017-06-01,CPI-U,244.955
+2017-07-01,CPI-U,244.786
+2017-08-01,CPI-U,245.519
+2017-09-01,CPI-U,246.819
+2017-10-01,CPI-U,246.663
+2017-11-01,CPI-U,246.669
+2017-12-01,CPI-U,246.524
+2018-01-01,CPI-U,247.867
+2018-02-01,CPI-U,248.991
+2018-03-01,CPI-U,249.554
+2018-04-01,CPI-U,250.546
+2018-05-01,CPI-U,251.588
+2018-06-01,CPI-U,251.989
+2018-07-01,CPI-U,252.006
+2018-08-01,CPI-U,252.146
+2018-09-01,CPI-U,252.439
+2018-10-01,CPI-U,252.885
+2018-11-01,CPI-U,252.038
+2018-12-01,CPI-U,251.233
+2019-01-01,CPI-U,251.712
+2019-02-01,CPI-U,252.776
+2019-03-01,CPI-U,254.202
+2019-04-01,CPI-U,255.548
+2019-05-01,CPI-U,256.092
+2019-06-01,CPI-U,256.143
+2019-07-01,CPI-U,256.571
+2019-08-01,CPI-U,256.558
+2019-09-01,CPI-U,256.759
+2019-10-01,CPI-U,257.346
+2019-11-01,CPI-U,257.208
+2019-12-01,CPI-U,256.974
+2020-01-01,CPI-U,257.971
+2020-02-01,CPI-U,258.678
+2020-03-01,CPI-U,258.115
+2020-04-01,CPI-U,256.389
+2020-05-01,CPI-U,256.394
+2020-06-01,CPI-U,257.797
+2020-07-01,CPI-U,259.101
+2020-08-01,CPI-U,259.918
+2020-09-01,CPI-U,260.28
+2020-10-01,CPI-U,260.388
+2020-11-01,CPI-U,260.229
+2020-12-01,CPI-U,260.474
+2021-01-01,CPI-U,261.582
+2021-02-01,CPI-U,263.014
+2021-03-01,CPI-U,264.877
+2021-04-01,CPI-U,267.054
+2021-05-01,CPI-U,269.195
+2021-06-01,CPI-U,271.696
+2021-07-01,CPI-U,273.003
+2021-08-01,CPI-U,273.567
+2021-09-01,CPI-U,274.31
+2021-10-01,CPI-U,276.589
+2021-11-01,CPI-U,277.948
+2021-12-01,CPI-U,278.802
+2022-01-01,CPI-U,281.148
+2022-02-01,CPI-U,283.716
+2022-03-01,CPI-U,287.504
+2022-04-01,CPI-U,289.109
+2022-05-01,CPI-U,292.296
+2022-06-01,CPI-U,296.311
+2022-07-01,CPI-U,296.276
+2022-08-01,CPI-U,296.171
+2022-09-01,CPI-U,296.808
+2022-10-01,CPI-U,298.012
+2022-11-01,CPI-U,297.711
+2022-12-01,CPI-U,296.797
+2023-01-01,CPI-U,299.17
+2023-02-01,CPI-U,300.84
+2023-03-01,CPI-U,301.836
+2023-04-01,CPI-U,303.363
+2023-05-01,CPI-U,304.127
+2023-06-01,CPI-U,305.109
+2023-07-01,CPI-U,305.691
+2023-08-01,CPI-U,307.026
+2023-09-01,CPI-U,307.789
+2023-10-01,CPI-U,307.671
+2023-11-01,CPI-U,307.051
+2023-12-01,CPI-U,306.746
+2024-01-01,CPI-U,308.417
+2024-02-01,CPI-U,310.326
+2024-03-01,CPI-U,312.332
+2024-04-01,CPI-U,313.548
+2024-05-01,CPI-U,314.069
+2024-06-01,CPI-U,314.175
+2024-07-01,CPI-U,314.54
+2024-08-01,CPI-U,314.796
+2024-09-01,CPI-U,315.301
+2024-10-01,CPI-U,315.664
+2024-11-01,CPI-U,315.493
+2024-12-01,CPI-U,315.605
+2025-01-01,CPI-U,317.671
+2025-02-01,CPI-U,319.082
+2025-03-01,CPI-U,319.799
+2025-04-01,CPI-U,320.795
+2025-05-01,CPI-U,321.465
+2025-06-01,CPI-U,322.561
+2025-07-01,CPI-U,323.048
+2025-08-01,CPI-U,323.976
+2025-09-01,CPI-U,324.8
+2010-01-01,Civilian Labor Force,153484.0
+2010-02-01,Civilian Labor Force,153694.0
+2010-03-01,Civilian Labor Force,153954.0
+2010-04-01,Civilian Labor Force,154622.0
+2010-05-01,Civilian Labor Force,154091.0
+2010-06-01,Civilian Labor Force,153616.0
+2010-07-01,Civilian Labor Force,153691.0
+2010-08-01,Civilian Labor Force,154086.0
+2010-09-01,Civilian Labor Force,153975.0
+2010-10-01,Civilian Labor Force,153635.0
+2010-11-01,Civilian Labor Force,154125.0
+2010-12-01,Civilian Labor Force,153650.0
+2011-01-01,Civilian Labor Force,153263.0
+2011-02-01,Civilian Labor Force,153214.0
+2011-03-01,Civilian Labor Force,153376.0
+2011-04-01,Civilian Labor Force,153543.0
+2011-05-01,Civilian Labor Force,153479.0
+2011-06-01,Civilian Labor Force,153346.0
+2011-07-01,Civilian Labor Force,153288.0
+2011-08-01,Civilian Labor Force,153760.0
+2011-09-01,Civilian Labor Force,154131.0
+2011-10-01,Civilian Labor Force,153961.0
+2011-11-01,Civilian Labor Force,154128.0
+2011-12-01,Civilian Labor Force,153995.0
+2012-01-01,Civilian Labor Force,154381.0
+2012-02-01,Civilian Labor Force,154671.0
+2012-03-01,Civilian Labor Force,154749.0
+2012-04-01,Civilian Labor Force,154545.0
+2012-05-01,Civilian Labor Force,154866.0
+2012-06-01,Civilian Labor Force,155083.0
+2012-07-01,Civilian Labor Force,154948.0
+2012-08-01,Civilian Labor Force,154763.0
+2012-09-01,Civilian Labor Force,155160.0
+2012-10-01,Civilian Labor Force,155554.0
+2012-11-01,Civilian Labor Force,155338.0
+2012-12-01,Civilian Labor Force,155628.0
+2013-01-01,Civilian Labor Force,155763.0
+2013-02-01,Civilian Labor Force,155312.0
+2013-03-01,Civilian Labor Force,155005.0
+2013-04-01,Civilian Labor Force,155394.0
+2013-05-01,Civilian Labor Force,155536.0
+2013-06-01,Civilian Labor Force,155749.0
+2013-07-01,Civilian Labor Force,155599.0
+2013-08-01,Civilian Labor Force,155605.0
+2013-09-01,Civilian Labor Force,155687.0
+2013-10-01,Civilian Labor Force,154673.0
+2013-11-01,Civilian Labor Force,155265.0
+2013-12-01,Civilian Labor Force,155182.0
+2014-01-01,Civilian Labor Force,155352.0
+2014-02-01,Civilian Labor Force,155483.0
+2014-03-01,Civilian Labor Force,156028.0
+2014-04-01,Civilian Labor Force,155369.0
+2014-05-01,Civilian Labor Force,155684.0
+2014-06-01,Civilian Labor Force,155707.0
+2014-07-01,Civilian Labor Force,156007.0
+2014-08-01,Civilian Labor Force,156130.0
+2014-09-01,Civilian Labor Force,156040.0
+2014-10-01,Civilian Labor Force,156417.0
+2014-11-01,Civilian Labor Force,156494.0
+2014-12-01,Civilian Labor Force,156332.0
+2015-01-01,Civilian Labor Force,157030.0
+2015-02-01,Civilian Labor Force,156644.0
+2015-03-01,Civilian Labor Force,156643.0
+2015-04-01,Civilian Labor Force,157060.0
+2015-05-01,Civilian Labor Force,157651.0
+2015-06-01,Civilian Labor Force,157062.0
+2015-07-01,Civilian Labor Force,156997.0
+2015-08-01,Civilian Labor Force,157172.0
+2015-09-01,Civilian Labor Force,156733.0
+2015-10-01,Civilian Labor Force,157167.0
+2015-11-01,Civilian Labor Force,157463.0
+2015-12-01,Civilian Labor Force,158035.0
+2016-01-01,Civilian Labor Force,158280.0
+2016-02-01,Civilian Labor Force,158640.0
+2016-03-01,Civilian Labor Force,159179.0
+2016-04-01,Civilian Labor Force,159141.0
+2016-05-01,Civilian Labor Force,158784.0
+2016-06-01,Civilian Labor Force,158967.0
+2016-07-01,Civilian Labor Force,159194.0
+2016-08-01,Civilian Labor Force,159562.0
+2016-09-01,Civilian Labor Force,159714.0
+2016-10-01,Civilian Labor Force,159605.0
+2016-11-01,Civilian Labor Force,159506.0
+2016-12-01,Civilian Labor Force,159678.0
+2017-01-01,Civilian Labor Force,159620.0
+2017-02-01,Civilian Labor Force,159859.0
+2017-03-01,Civilian Labor Force,160137.0
+2017-04-01,Civilian Labor Force,160345.0
+2017-05-01,Civilian Labor Force,160068.0
+2017-06-01,Civilian Labor Force,160192.0
+2017-07-01,Civilian Labor Force,160462.0
+2017-08-01,Civilian Labor Force,160586.0
+2017-09-01,Civilian Labor Force,161140.0
+2017-10-01,Civilian Labor Force,160309.0
+2017-11-01,Civilian Labor Force,160579.0
+2017-12-01,Civilian Labor Force,160535.0
+2018-01-01,Civilian Labor Force,160914.0
+2018-02-01,Civilian Labor Force,161778.0
+2018-03-01,Civilian Labor Force,161686.0
+2018-04-01,Civilian Labor Force,161771.0
+2018-05-01,Civilian Labor Force,161848.0
+2018-06-01,Civilian Labor Force,162210.0
+2018-07-01,Civilian Labor Force,162341.0
+2018-08-01,Civilian Labor Force,161660.0
+2018-09-01,Civilian Labor Force,162087.0
+2018-10-01,Civilian Labor Force,162602.0
+2018-11-01,Civilian Labor Force,162836.0
+2018-12-01,Civilian Labor Force,163206.0
+2019-01-01,Civilian Labor Force,162963.0
+2019-02-01,Civilian Labor Force,162999.0
+2019-03-01,Civilian Labor Force,162904.0
+2019-04-01,Civilian Labor Force,162586.0
+2019-05-01,Civilian Labor Force,162751.0
+2019-06-01,Civilian Labor Force,163168.0
+2019-07-01,Civilian Labor Force,163590.0
+2019-08-01,Civilian Labor Force,163774.0
+2019-09-01,Civilian Labor Force,164092.0
+2019-10-01,Civilian Labor Force,164416.0
+2019-11-01,Civilian Labor Force,164496.0
+2019-12-01,Civilian Labor Force,164699.0
+2020-01-01,Civilian Labor Force,164377.0
+2020-02-01,Civilian Labor Force,164467.0
+2020-03-01,Civilian Labor Force,162559.0
+2020-04-01,Civilian Labor Force,156269.0
+2020-05-01,Civilian Labor Force,158101.0
+2020-06-01,Civilian Labor Force,159994.0
+2020-07-01,Civilian Labor Force,160132.0
+2020-08-01,Civilian Labor Force,160706.0
+2020-09-01,Civilian Labor Force,160174.0
+2020-10-01,Civilian Labor Force,161003.0
+2020-11-01,Civilian Labor Force,160629.0
+2020-12-01,Civilian Labor Force,160745.0
+2021-01-01,Civilian Labor Force,160088.0
+2021-02-01,Civilian Labor Force,160184.0
+2021-03-01,Civilian Labor Force,160400.0
+2021-04-01,Civilian Labor Force,160843.0
+2021-05-01,Civilian Labor Force,160800.0
+2021-06-01,Civilian Labor Force,161197.0
+2021-07-01,Civilian Labor Force,161504.0
+2021-08-01,Civilian Labor Force,161527.0
+2021-09-01,Civilian Labor Force,161495.0
+2021-10-01,Civilian Labor Force,161754.0
+2021-11-01,Civilian Labor Force,162281.0
+2021-12-01,Civilian Labor Force,162497.0
+2022-01-01,Civilian Labor Force,163627.0
+2022-02-01,Civilian Labor Force,163899.0
+2022-03-01,Civilian Labor Force,164220.0
+2022-04-01,Civilian Labor Force,163893.0
+2022-05-01,Civilian Labor Force,164362.0
+2022-06-01,Civilian Labor Force,164046.0
+2022-07-01,Civilian Labor Force,164026.0
+2022-08-01,Civilian Labor Force,164654.0
+2022-09-01,Civilian Labor Force,164602.0
+2022-10-01,Civilian Labor Force,164648.0
+2022-11-01,Civilian Labor Force,164450.0
+2022-12-01,Civilian Labor Force,165025.0
+2023-01-01,Civilian Labor Force,165964.0
+2023-02-01,Civilian Labor Force,166358.0
+2023-03-01,Civilian Labor Force,166651.0
+2023-04-01,Civilian Labor Force,166725.0
+2023-05-01,Civilian Labor Force,166886.0
+2023-06-01,Civilian Labor Force,166937.0
+2023-07-01,Civilian Labor Force,167103.0
+2023-08-01,Civilian Labor Force,167759.0
+2023-09-01,Civilian Labor Force,167767.0
+2023-10-01,Civilian Labor Force,167690.0
+2023-11-01,Civilian Labor Force,168140.0
+2023-12-01,Civilian Labor Force,167439.0
+2024-01-01,Civilian Labor Force,167339.0
+2024-02-01,Civilian Labor Force,167475.0
+2024-03-01,Civilian Labor Force,167922.0
+2024-04-01,Civilian Labor Force,167988.0
+2024-05-01,Civilian Labor Force,167799.0
+2024-06-01,Civilian Labor Force,168005.0
+2024-07-01,Civilian Labor Force,168315.0
+2024-08-01,Civilian Labor Force,168496.0
+2024-09-01,Civilian Labor Force,168703.0
+2024-10-01,Civilian Labor Force,168428.0
+2024-11-01,Civilian Labor Force,168304.0
+2024-12-01,Civilian Labor Force,168547.0
+2025-01-01,Civilian Labor Force,170744.0
+2025-02-01,Civilian Labor Force,170359.0
+2025-03-01,Civilian Labor Force,170591.0
+2025-04-01,Civilian Labor Force,171135.0
+2025-05-01,Civilian Labor Force,170510.0
+2025-06-01,Civilian Labor Force,170380.0
+2025-07-01,Civilian Labor Force,170342.0
+2025-08-01,Civilian Labor Force,170778.0
+2025-09-01,Civilian Labor Force,171248.0
+2010-01-01,Total Nonfarm Employment,129802.0
+2010-02-01,Total Nonfarm Employment,129705.0
+2010-03-01,Total Nonfarm Employment,129865.0
+2010-04-01,Total Nonfarm Employment,130120.0
+2010-05-01,Total Nonfarm Employment,130643.0
+2010-06-01,Total Nonfarm Employment,130509.0
+2010-07-01,Total Nonfarm Employment,130415.0
+2010-08-01,Total Nonfarm Employment,130416.0
+2010-09-01,Total Nonfarm Employment,130342.0
+2010-10-01,Total Nonfarm Employment,130621.0
+2010-11-01,Total Nonfarm Employment,130749.0
+2010-12-01,Total Nonfarm Employment,130830.0
+2011-01-01,Total Nonfarm Employment,130837.0
+2011-02-01,Total Nonfarm Employment,131056.0
+2011-03-01,Total Nonfarm Employment,131282.0
+2011-04-01,Total Nonfarm Employment,131597.0
+2011-05-01,Total Nonfarm Employment,131704.0
+2011-06-01,Total Nonfarm Employment,131931.0
+2011-07-01,Total Nonfarm Employment,131993.0
+2011-08-01,Total Nonfarm Employment,132125.0
+2011-09-01,Total Nonfarm Employment,132344.0
+2011-10-01,Total Nonfarm Employment,132553.0
+2011-11-01,Total Nonfarm Employment,132690.0
+2011-12-01,Total Nonfarm Employment,132888.0
+2012-01-01,Total Nonfarm Employment,133245.0
+2012-02-01,Total Nonfarm Employment,133508.0
+2012-03-01,Total Nonfarm Employment,133748.0
+2012-04-01,Total Nonfarm Employment,133825.0
+2012-05-01,Total Nonfarm Employment,133933.0
+2012-06-01,Total Nonfarm Employment,134012.0
+2012-07-01,Total Nonfarm Employment,134157.0
+2012-08-01,Total Nonfarm Employment,134338.0
+2012-09-01,Total Nonfarm Employment,134517.0
+2012-10-01,Total Nonfarm Employment,134668.0
+2012-11-01,Total Nonfarm Employment,134825.0
+2012-12-01,Total Nonfarm Employment,135074.0
+2013-01-01,Total Nonfarm Employment,135257.0
+2013-02-01,Total Nonfarm Employment,135545.0
+2013-03-01,Total Nonfarm Employment,135689.0
+2013-04-01,Total Nonfarm Employment,135873.0
+2013-05-01,Total Nonfarm Employment,136095.0
+2013-06-01,Total Nonfarm Employment,136279.0
+2013-07-01,Total Nonfarm Employment,136391.0
+2013-08-01,Total Nonfarm Employment,136646.0
+2013-09-01,Total Nonfarm Employment,136821.0
+2013-10-01,Total Nonfarm Employment,137041.0
+2013-11-01,Total Nonfarm Employment,137316.0
+2013-12-01,Total Nonfarm Employment,137373.0
+2014-01-01,Total Nonfarm Employment,137561.0
+2014-02-01,Total Nonfarm Employment,137712.0
+2014-03-01,Total Nonfarm Employment,137985.0
+2014-04-01,Total Nonfarm Employment,138297.0
+2014-05-01,Total Nonfarm Employment,138512.0
+2014-06-01,Total Nonfarm Employment,138849.0
+2014-07-01,Total Nonfarm Employment,139073.0
+2014-08-01,Total Nonfarm Employment,139269.0
+2014-09-01,Total Nonfarm Employment,139563.0
+2014-10-01,Total Nonfarm Employment,139797.0
+2014-11-01,Total Nonfarm Employment,140090.0
+2014-12-01,Total Nonfarm Employment,140364.0
+2015-01-01,Total Nonfarm Employment,140568.0
+2015-02-01,Total Nonfarm Employment,140827.0
+2015-03-01,Total Nonfarm Employment,140923.0
+2015-04-01,Total Nonfarm Employment,141196.0
+2015-05-01,Total Nonfarm Employment,141538.0
+2015-06-01,Total Nonfarm Employment,141709.0
+2015-07-01,Total Nonfarm Employment,141991.0
+2015-08-01,Total Nonfarm Employment,142125.0
+2015-09-01,Total Nonfarm Employment,142275.0
+2015-10-01,Total Nonfarm Employment,142579.0
+2015-11-01,Total Nonfarm Employment,142808.0
+2015-12-01,Total Nonfarm Employment,143077.0
+2016-01-01,Total Nonfarm Employment,143210.0
+2016-02-01,Total Nonfarm Employment,143407.0
+2016-03-01,Total Nonfarm Employment,143662.0
+2016-04-01,Total Nonfarm Employment,143855.0
+2016-05-01,Total Nonfarm Employment,143900.0
+2016-06-01,Total Nonfarm Employment,144146.0
+2016-07-01,Total Nonfarm Employment,144520.0
+2016-08-01,Total Nonfarm Employment,144662.0
+2016-09-01,Total Nonfarm Employment,144967.0
+2016-10-01,Total Nonfarm Employment,145066.0
+2016-11-01,Total Nonfarm Employment,145183.0
+2016-12-01,Total Nonfarm Employment,145408.0
+2017-01-01,Total Nonfarm Employment,145628.0
+2017-02-01,Total Nonfarm Employment,145848.0
+2017-03-01,Total Nonfarm Employment,145969.0
+2017-04-01,Total Nonfarm Employment,146174.0
+2017-05-01,Total Nonfarm Employment,146380.0
+2017-06-01,Total Nonfarm Employment,146583.0
+2017-07-01,Total Nonfarm Employment,146772.0
+2017-08-01,Total Nonfarm Employment,146919.0
+2017-09-01,Total Nonfarm Employment,147007.0
+2017-10-01,Total Nonfarm Employment,147150.0
+2017-11-01,Total Nonfarm Employment,147373.0
+2017-12-01,Total Nonfarm Employment,147523.0
+2018-01-01,Total Nonfarm Employment,147660.0
+2018-02-01,Total Nonfarm Employment,148054.0
+2018-03-01,Total Nonfarm Employment,148280.0
+2018-04-01,Total Nonfarm Employment,148422.0
+2018-05-01,Total Nonfarm Employment,148740.0
+2018-06-01,Total Nonfarm Employment,148959.0
+2018-07-01,Total Nonfarm Employment,149020.0
+2018-08-01,Total Nonfarm Employment,149279.0
+2018-09-01,Total Nonfarm Employment,149358.0
+2018-10-01,Total Nonfarm Employment,149526.0
+2018-11-01,Total Nonfarm Employment,149617.0
+2018-12-01,Total Nonfarm Employment,149809.0
+2019-01-01,Total Nonfarm Employment,150059.0
+2019-02-01,Total Nonfarm Employment,150065.0
+2019-03-01,Total Nonfarm Employment,150295.0
+2019-04-01,Total Nonfarm Employment,150593.0
+2019-05-01,Total Nonfarm Employment,150621.0
+2019-06-01,Total Nonfarm Employment,150839.0
+2019-07-01,Total Nonfarm Employment,150936.0
+2019-08-01,Total Nonfarm Employment,151171.0
+2019-09-01,Total Nonfarm Employment,151365.0
+2019-10-01,Total Nonfarm Employment,151460.0
+2019-11-01,Total Nonfarm Employment,151668.0
+2019-12-01,Total Nonfarm Employment,151795.0
+2020-01-01,Total Nonfarm Employment,152031.0
+2020-02-01,Total Nonfarm Employment,152292.0
+2020-03-01,Total Nonfarm Employment,150895.0
+2020-04-01,Total Nonfarm Employment,130424.0
+2020-05-01,Total Nonfarm Employment,133040.0
+2020-06-01,Total Nonfarm Employment,137671.0
+2020-07-01,Total Nonfarm Employment,139255.0
+2020-08-01,Total Nonfarm Employment,140819.0
+2020-09-01,Total Nonfarm Employment,141770.0
+2020-10-01,Total Nonfarm Employment,142461.0
+2020-11-01,Total Nonfarm Employment,142731.0
+2020-12-01,Total Nonfarm Employment,142548.0
+2021-01-01,Total Nonfarm Employment,142913.0
+2021-02-01,Total Nonfarm Employment,143422.0
+2021-03-01,Total Nonfarm Employment,144246.0
+2021-04-01,Total Nonfarm Employment,144611.0
+2021-05-01,Total Nonfarm Employment,145032.0
+2021-06-01,Total Nonfarm Employment,145828.0
+2021-07-01,Total Nonfarm Employment,146759.0
+2021-08-01,Total Nonfarm Employment,147246.0
+2021-09-01,Total Nonfarm Employment,147712.0
+2021-10-01,Total Nonfarm Employment,148569.0
+2021-11-01,Total Nonfarm Employment,149206.0
+2021-12-01,Total Nonfarm Employment,149781.0
+2022-01-01,Total Nonfarm Employment,150006.0
+2022-02-01,Total Nonfarm Employment,150875.0
+2022-03-01,Total Nonfarm Employment,151346.0
+2022-04-01,Total Nonfarm Employment,151651.0
+2022-05-01,Total Nonfarm Employment,151892.0
+2022-06-01,Total Nonfarm Employment,152353.0
+2022-07-01,Total Nonfarm Employment,153049.0
+2022-08-01,Total Nonfarm Employment,153286.0
+2022-09-01,Total Nonfarm Employment,153513.0
+2022-10-01,Total Nonfarm Employment,153913.0
+2022-11-01,Total Nonfarm Employment,154210.0
+2022-12-01,Total Nonfarm Employment,154336.0
+2023-01-01,Total Nonfarm Employment,154780.0
+2023-02-01,Total Nonfarm Employment,155086.0
+2023-03-01,Total Nonfarm Employment,155171.0
+2023-04-01,Total Nonfarm Employment,155387.0
+2023-05-01,Total Nonfarm Employment,155614.0
+2023-06-01,Total Nonfarm Employment,155871.0
+2023-07-01,Total Nonfarm Employment,156019.0
+2023-08-01,Total Nonfarm Employment,156176.0
+2023-09-01,Total Nonfarm Employment,156334.0
+2023-10-01,Total Nonfarm Employment,156520.0
+2023-11-01,Total Nonfarm Employment,156661.0
+2023-12-01,Total Nonfarm Employment,156930.0
+2024-01-01,Total Nonfarm Employment,157049.0
+2024-02-01,Total Nonfarm Employment,157271.0
+2024-03-01,Total Nonfarm Employment,157517.0
+2024-04-01,Total Nonfarm Employment,157635.0
+2024-05-01,Total Nonfarm Employment,157828.0
+2024-06-01,Total Nonfarm Employment,157915.0
+2024-07-01,Total Nonfarm Employment,158003.0
+2024-08-01,Total Nonfarm Employment,158074.0
+2024-09-01,Total Nonfarm Employment,158314.0
+2024-10-01,Total Nonfarm Employment,158358.0
+2024-11-01,Total Nonfarm Employment,158619.0
+2024-12-01,Total Nonfarm Employment,158942.0
+2025-01-01,Total Nonfarm Employment,159053.0
+2025-02-01,Total Nonfarm Employment,159155.0
+2025-03-01,Total Nonfarm Employment,159275.0
+2025-04-01,Total Nonfarm Employment,159433.0
+2025-05-01,Total Nonfarm Employment,159452.0
+2025-06-01,Total Nonfarm Employment,159439.0
+2025-07-01,Total Nonfarm Employment,159511.0
+2025-08-01,Total Nonfarm Employment,159507.0
+2025-09-01,Total Nonfarm Employment,159626.0
+2010-01-01,Unemployment Rate (SA),9.8
+2010-02-01,Unemployment Rate (SA),9.8
+2010-03-01,Unemployment Rate (SA),9.9
+2010-04-01,Unemployment Rate (SA),9.9
+2010-05-01,Unemployment Rate (SA),9.6
+2010-06-01,Unemployment Rate (SA),9.4
+2010-07-01,Unemployment Rate (SA),9.4
+2010-08-01,Unemployment Rate (SA),9.5
+2010-09-01,Unemployment Rate (SA),9.5
+2010-10-01,Unemployment Rate (SA),9.4
+2010-11-01,Unemployment Rate (SA),9.8
+2010-12-01,Unemployment Rate (SA),9.3
+2011-01-01,Unemployment Rate (SA),9.1
+2011-02-01,Unemployment Rate (SA),9.0
+2011-03-01,Unemployment Rate (SA),9.0
+2011-04-01,Unemployment Rate (SA),9.1
+2011-05-01,Unemployment Rate (SA),9.0
+2011-06-01,Unemployment Rate (SA),9.1
+2011-07-01,Unemployment Rate (SA),9.0
+2011-08-01,Unemployment Rate (SA),9.0
+2011-09-01,Unemployment Rate (SA),9.0
+2011-10-01,Unemployment Rate (SA),8.8
+2011-11-01,Unemployment Rate (SA),8.6
+2011-12-01,Unemployment Rate (SA),8.5
+2012-01-01,Unemployment Rate (SA),8.3
+2012-02-01,Unemployment Rate (SA),8.3
+2012-03-01,Unemployment Rate (SA),8.2
+2012-04-01,Unemployment Rate (SA),8.2
+2012-05-01,Unemployment Rate (SA),8.2
+2012-06-01,Unemployment Rate (SA),8.2
+2012-07-01,Unemployment Rate (SA),8.2
+2012-08-01,Unemployment Rate (SA),8.1
+2012-09-01,Unemployment Rate (SA),7.8
+2012-10-01,Unemployment Rate (SA),7.8
+2012-11-01,Unemployment Rate (SA),7.7
+2012-12-01,Unemployment Rate (SA),7.9
+2013-01-01,Unemployment Rate (SA),8.0
+2013-02-01,Unemployment Rate (SA),7.7
+2013-03-01,Unemployment Rate (SA),7.5
+2013-04-01,Unemployment Rate (SA),7.6
+2013-05-01,Unemployment Rate (SA),7.5
+2013-06-01,Unemployment Rate (SA),7.5
+2013-07-01,Unemployment Rate (SA),7.3
+2013-08-01,Unemployment Rate (SA),7.2
+2013-09-01,Unemployment Rate (SA),7.2
+2013-10-01,Unemployment Rate (SA),7.2
+2013-11-01,Unemployment Rate (SA),6.9
+2013-12-01,Unemployment Rate (SA),6.7
+2014-01-01,Unemployment Rate (SA),6.6
+2014-02-01,Unemployment Rate (SA),6.7
+2014-03-01,Unemployment Rate (SA),6.7
+2014-04-01,Unemployment Rate (SA),6.2
+2014-05-01,Unemployment Rate (SA),6.3
+2014-06-01,Unemployment Rate (SA),6.1
+2014-07-01,Unemployment Rate (SA),6.2
+2014-08-01,Unemployment Rate (SA),6.1
+2014-09-01,Unemployment Rate (SA),5.9
+2014-10-01,Unemployment Rate (SA),5.7
+2014-11-01,Unemployment Rate (SA),5.8
+2014-12-01,Unemployment Rate (SA),5.6
+2015-01-01,Unemployment Rate (SA),5.7
+2015-02-01,Unemployment Rate (SA),5.5
+2015-03-01,Unemployment Rate (SA),5.4
+2015-04-01,Unemployment Rate (SA),5.4
+2015-05-01,Unemployment Rate (SA),5.6
+2015-06-01,Unemployment Rate (SA),5.3
+2015-07-01,Unemployment Rate (SA),5.2
+2015-08-01,Unemployment Rate (SA),5.1
+2015-09-01,Unemployment Rate (SA),5.0
+2015-10-01,Unemployment Rate (SA),5.0
+2015-11-01,Unemployment Rate (SA),5.1
+2015-12-01,Unemployment Rate (SA),5.0
+2016-01-01,Unemployment Rate (SA),4.8
+2016-02-01,Unemployment Rate (SA),4.9
+2016-03-01,Unemployment Rate (SA),5.0
+2016-04-01,Unemployment Rate (SA),5.1
+2016-05-01,Unemployment Rate (SA),4.8
+2016-06-01,Unemployment Rate (SA),4.9
+2016-07-01,Unemployment Rate (SA),4.8
+2016-08-01,Unemployment Rate (SA),4.9
+2016-09-01,Unemployment Rate (SA),5.0
+2016-10-01,Unemployment Rate (SA),4.9
+2016-11-01,Unemployment Rate (SA),4.7
+2016-12-01,Unemployment Rate (SA),4.7
+2017-01-01,Unemployment Rate (SA),4.7
+2017-02-01,Unemployment Rate (SA),4.6
+2017-03-01,Unemployment Rate (SA),4.4
+2017-04-01,Unemployment Rate (SA),4.4
+2017-05-01,Unemployment Rate (SA),4.4
+2017-06-01,Unemployment Rate (SA),4.3
+2017-07-01,Unemployment Rate (SA),4.3
+2017-08-01,Unemployment Rate (SA),4.4
+2017-09-01,Unemployment Rate (SA),4.3
+2017-10-01,Unemployment Rate (SA),4.2
+2017-11-01,Unemployment Rate (SA),4.2
+2017-12-01,Unemployment Rate (SA),4.1
+2018-01-01,Unemployment Rate (SA),4.0
+2018-02-01,Unemployment Rate (SA),4.1
+2018-03-01,Unemployment Rate (SA),4.0
+2018-04-01,Unemployment Rate (SA),4.0
+2018-05-01,Unemployment Rate (SA),3.8
+2018-06-01,Unemployment Rate (SA),4.0
+2018-07-01,Unemployment Rate (SA),3.8
+2018-08-01,Unemployment Rate (SA),3.8
+2018-09-01,Unemployment Rate (SA),3.7
+2018-10-01,Unemployment Rate (SA),3.8
+2018-11-01,Unemployment Rate (SA),3.8
+2018-12-01,Unemployment Rate (SA),3.9
+2019-01-01,Unemployment Rate (SA),4.0
+2019-02-01,Unemployment Rate (SA),3.8
+2019-03-01,Unemployment Rate (SA),3.8
+2019-04-01,Unemployment Rate (SA),3.7
+2019-05-01,Unemployment Rate (SA),3.6
+2019-06-01,Unemployment Rate (SA),3.6
+2019-07-01,Unemployment Rate (SA),3.7
+2019-08-01,Unemployment Rate (SA),3.6
+2019-09-01,Unemployment Rate (SA),3.5
+2019-10-01,Unemployment Rate (SA),3.6
+2019-11-01,Unemployment Rate (SA),3.6
+2019-12-01,Unemployment Rate (SA),3.6
+2020-01-01,Unemployment Rate (SA),3.6
+2020-02-01,Unemployment Rate (SA),3.5
+2020-03-01,Unemployment Rate (SA),4.4
+2020-04-01,Unemployment Rate (SA),14.8
+2020-05-01,Unemployment Rate (SA),13.2
+2020-06-01,Unemployment Rate (SA),11.0
+2020-07-01,Unemployment Rate (SA),10.2
+2020-08-01,Unemployment Rate (SA),8.4
+2020-09-01,Unemployment Rate (SA),7.8
+2020-10-01,Unemployment Rate (SA),6.9
+2020-11-01,Unemployment Rate (SA),6.7
+2020-12-01,Unemployment Rate (SA),6.7
+2021-01-01,Unemployment Rate (SA),6.4
+2021-02-01,Unemployment Rate (SA),6.2
+2021-03-01,Unemployment Rate (SA),6.1
+2021-04-01,Unemployment Rate (SA),6.1
+2021-05-01,Unemployment Rate (SA),5.8
+2021-06-01,Unemployment Rate (SA),5.9
+2021-07-01,Unemployment Rate (SA),5.4
+2021-08-01,Unemployment Rate (SA),5.1
+2021-09-01,Unemployment Rate (SA),4.7
+2021-10-01,Unemployment Rate (SA),4.5
+2021-11-01,Unemployment Rate (SA),4.2
+2021-12-01,Unemployment Rate (SA),3.9
+2022-01-01,Unemployment Rate (SA),4.0
+2022-02-01,Unemployment Rate (SA),3.8
+2022-03-01,Unemployment Rate (SA),3.7
+2022-04-01,Unemployment Rate (SA),3.7
+2022-05-01,Unemployment Rate (SA),3.6
+2022-06-01,Unemployment Rate (SA),3.6
+2022-07-01,Unemployment Rate (SA),3.5
+2022-08-01,Unemployment Rate (SA),3.6
+2022-09-01,Unemployment Rate (SA),3.5
+2022-10-01,Unemployment Rate (SA),3.6
+2022-11-01,Unemployment Rate (SA),3.6
+2022-12-01,Unemployment Rate (SA),3.5
+2023-01-01,Unemployment Rate (SA),3.5
+2023-02-01,Unemployment Rate (SA),3.6
+2023-03-01,Unemployment Rate (SA),3.5
+2023-04-01,Unemployment Rate (SA),3.4
+2023-05-01,Unemployment Rate (SA),3.6
+2023-06-01,Unemployment Rate (SA),3.6
+2023-07-01,Unemployment Rate (SA),3.5
+2023-08-01,Unemployment Rate (SA),3.7
+2023-09-01,Unemployment Rate (SA),3.8
+2023-10-01,Unemployment Rate (SA),3.9
+2023-11-01,Unemployment Rate (SA),3.7
+2023-12-01,Unemployment Rate (SA),3.8
+2024-01-01,Unemployment Rate (SA),3.7
+2024-02-01,Unemployment Rate (SA),3.9
+2024-03-01,Unemployment Rate (SA),3.9
+2024-04-01,Unemployment Rate (SA),3.9
+2024-05-01,Unemployment Rate (SA),4.0
+2024-06-01,Unemployment Rate (SA),4.1
+2024-07-01,Unemployment Rate (SA),4.2
+2024-08-01,Unemployment Rate (SA),4.2
+2024-09-01,Unemployment Rate (SA),4.1
+2024-10-01,Unemployment Rate (SA),4.1
+2024-11-01,Unemployment Rate (SA),4.2
+2024-12-01,Unemployment Rate (SA),4.1
+2025-01-01,Unemployment Rate (SA),4.0
+2025-02-01,Unemployment Rate (SA),4.1
+2025-03-01,Unemployment Rate (SA),4.2
+2025-04-01,Unemployment Rate (SA),4.2
+2025-05-01,Unemployment Rate (SA),4.2
+2025-06-01,Unemployment Rate (SA),4.1
+2025-07-01,Unemployment Rate (SA),4.2
+2025-08-01,Unemployment Rate (SA),4.3
+2025-09-01,Unemployment Rate (SA),4.4
