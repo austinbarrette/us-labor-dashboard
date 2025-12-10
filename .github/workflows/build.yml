@@ -23,6 +23,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Don't use the default token for git
 
       # Runs a single command using the runners shell
       - name: Set up Python
@@ -41,8 +43,8 @@ jobs:
 
       - name: Commit updated master CSV
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add data/labor_data_master.csv
-          git commit -m "Update labor_data_master.csv" || echo "No changes to commit"
-          git push
+            git config --global user.name "GitHub Actions"
+            git config --global user.email "actions@github.com"
+            git add data/labor_data_master.csv
+            git commit -m "Update labor_data_master.csv" || echo "No changes to commit"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
