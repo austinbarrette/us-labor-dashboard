@@ -79,13 +79,15 @@ else:
 new_data = fetch_bls_data(series_ids, start_year=start_year)
 
 # COMBINE DATA INTO MASTER
-combined_df = pd.concat([master_df, new_data]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
+combined_df = pd.concat(
+    [master_df.dropna(axis=1, how='all'), new_data.dropna(axis=1, how='all')]
+).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
 
 # CLEAN / TRANSFORM DATA
 # Make copy
 combined_df = combined_df.copy()
 
-# Convert Average Hourly Earnings Private to $0.00 Data Type
+# Convert Average Hourly Earnings Private to 2 decimal places
 mask_earnings = combined_df['Series'] == 'Average Hourly Earnings Private'
 combined_df.loc[mask_earnings, 'Value'] = combined_df.loc[mask_earnings, 'Value'].round(2)
 
