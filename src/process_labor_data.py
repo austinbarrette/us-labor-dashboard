@@ -70,4 +70,11 @@ if os.path.exists(RAW_FILE):
     master_df = pd.concat([master_df, raw_df]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
 
 # FETCH NEW DATA
-if not master_df.em_
+# FETCH NEW DATA
+if not master_df.empty:
+    last_year_in_master = master_df['Date'].dt.year.max()
+    start_year = last_year_in_master
+else:
+    start_year = 2000
+
+new_data = fetch_bls_data(series_ids, start_year=start_year)
