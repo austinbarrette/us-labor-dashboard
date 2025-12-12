@@ -70,17 +70,4 @@ if os.path.exists(RAW_FILE):
     master_df = pd.concat([master_df, raw_df]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
 
 # FETCH NEW DATA
-if not master_df.empty:
-    last_year_in_master = master_df['Date'].dt.year.max()
-    start_year = last_year_in_master
-else:
-    start_year = 2000
-
-new_data = fetch_bls_data(series_ids, start_year=start_year)
-
-# COMBINE DATA INTO MASTER
-combined_df = pd.concat([master_df, new_data]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
-
-# SAVE MASTER FILE
-combined_df.to_csv(MASTER_FILE, index=False)
-print(f"Master file updated: {MASTER_FILE} ({len(combined_df)} rows)")
+if not master_df.em_

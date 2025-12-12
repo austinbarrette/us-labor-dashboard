@@ -1,9 +1,13 @@
 import streamlit as st
 import pandas as pd
+import altair as alt
 
+# ----------------------------
+# DASHBOARD TITLE
+# ----------------------------
 st.title("US Labor Market Dashboard")
 
-# URL to your master dataset (raw GitHub file)
+# URL to your master dataset
 CSV_URL = "https://raw.githubusercontent.com/austinbarrette/us-labor-dashboard/main/data/labor_data_master.csv"
 
 @st.cache_data
@@ -13,13 +17,81 @@ def load_data():
 
 df = load_data()
 
-st.subheader("Preview of Data")
-st.dataframe(df.head())
+# ----------------------------
+# SERIES SELECTION (SIDE-BY-SIDE)
+# ----------------------------
+st.markdown("### Choose U.S. Labor Metrics to Visualize:")
 
-# Select a metric (Series)
-series_list = sorted(df['Series'].unique())
-selected_series = st.selectbox("Choose a labor metric:", series_list)
+# Create two columns for filters
+col1, col2 = st.columns(2)
 
-filtered = df[df['Series'] == selected_series]
+with col1:
+    primary_series = st.radio("Primary Metric", sorted(df['Series'].unique()), key="primary")
+with col2:
+    compare_options = ["None"] + [s for s in sorted(df['Series'].unique()) if s != primary_series]
+    compare_series = st.radio("Compare Metric (optional)", compare_options, key="compare")
 
-st.line_chart(filtered.set_index("Date")["Value"])
+# ----------------------------
+# FILTER DATA
+# ----------------------------
+plot_df = df[df['Series'] == primary_series][["Date", "Value"]].rename(columns={"Value": primary_series})
+plot_df = plot_df.set_index("Date")
+
+if compare_series != "None":
+    compare_df = df[df['Series'] == compare_series][["Date", "Value"]].rename(columns={"Value": compare_series})
+    compare_df = compare_df.set_index("Date")
+    plot_df = plot_df.join(compare_df, how="outer")
+
+# ----------------------------
+# LINE CHART TITLE WITH HTML
+# ----------------------------
+# Set consistent font size for all lines
+font_size = "28px"  # adjust as needed
+
+if compare_series == "None":
+    # Single metric: show primary + "over Time"
+    title_html = f"<div style='font-size:{font_size}; font-weight:bold;'>{primary_series} over Time</div>"
+else:
+    # Compare metric selected: multi-line
+    title_html = (
+        f"<div style='font-size:{font_size}; font-weight:bold;'>{primary_series}</div>"
+        f"<div style='font-size:{font_size}; font-weight:bold;'>vs. {compare_series} over Time</div>"
+    )
+
+st.markdown(title_html, unsafe_allow_html=True)
+
+# Plot lines with optional secondary axis
+if compare_series == "None":
+    lines = alt.Chart(plot_df.reset_index()).mark_line(color="#1f77b4").encode(
+        x='Date:T',
+        y=alt.Y(f'{primary_series}:Q', title=None),
+        tooltip=['Date:T', f'{primary_series}:Q']
+    )
+else:
+    base = alt.Chart(plot_df.reset_index()).encode(x='Date:T')
+    line1 = base.mark_line(color="#1f77b4").encode(
+        y=alt.Y(f'{primary_series}:Q', axis=alt.Axis(title=primary_series)),
+        tooltip=['Date:T', f'{primary_series}:Q']
+    )
+    line2 = base.mark_line(color="#ff7f0e").encode(
+        y=alt.Y(f'{compare_series}:Q', axis=alt.Axis(title=compare_series)),
+        tooltip=['Date:T', f'{compare_series}:Q']
+    )
+    lines = alt.layer(line1, line2).resolve_scale(y='independent')
+
+st.altair_chart(lines, use_container_width=True)
+
+# ----------------------------
+# DYNAMIC DATA TABLE
+# ----------------------------
+table_df = plot_df.reset_index()
+# Sort newest → oldest
+table_df = table_df.sort_values("Date", ascending=False)
+
+# Show all data, no title, dynamic column names
+st.dataframe(
+    table_df,
+    use_container_width=True,
+    hide_index=True,
+    height=400  # scrollable table
+)
