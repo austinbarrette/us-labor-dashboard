@@ -64,12 +64,11 @@ if os.path.exists(MASTER_FILE):
 else:
     master_df = pd.DataFrame(columns=['Date', 'Series', 'Value'])
 
-# OPTIONAL: Merge raw CSV if it exists
+# Merge raw CSV if it exists
 if os.path.exists(RAW_FILE):
     raw_df = pd.read_csv(RAW_FILE, parse_dates=['Date'])
     master_df = pd.concat([master_df, raw_df]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
 
-# FETCH NEW DATA
 # FETCH NEW DATA
 if not master_df.empty:
     last_year_in_master = master_df['Date'].dt.year.max()
@@ -78,3 +77,10 @@ else:
     start_year = 2000
 
 new_data = fetch_bls_data(series_ids, start_year=start_year)
+
+# COMBINE DATA INTO MASTER
+combined_df = pd.concat([master_df, new_data]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
+
+# SAVE MASTER FILE
+combined_df.to_csv(MASTER_FILE, index=False)
+print(f"Master file updated: {MASTER_FILE} ({len(combined_df)} rows)")
