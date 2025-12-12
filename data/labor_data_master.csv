@@ -165,78 +165,75 @@ Date,Series,Value
 2019-10-01,Average Hourly Earnings Private,28.23
 2019-11-01,Average Hourly Earnings Private,28.34
 2019-12-01,Average Hourly Earnings Private,28.38
-2000-01-01,Consumer Price Index - All Urban Consumers,168.8
-2000-02-01,Consumer Price Index - All Urban Consumers,169.8
-2000-03-01,Consumer Price Index - All Urban Consumers,171.2
-2000-04-01,Consumer Price Index - All Urban Consumers,171.3
-2000-05-01,Consumer Price Index - All Urban Consumers,171.5
-2000-06-01,Consumer Price Index - All Urban Consumers,172.4
-2000-07-01,Consumer Price Index - All Urban Consumers,172.8
-2000-08-01,Consumer Price Index - All Urban Consumers,172.8
-2000-09-01,Consumer Price Index - All Urban Consumers,173.7
-2000-10-01,Consumer Price Index - All Urban Consumers,174.0
-2000-11-01,Consumer Price Index - All Urban Consumers,174.1
-2000-12-01,Consumer Price Index - All Urban Consumers,174.0
-2001-01-01,Consumer Price Index - All Urban Consumers,175.1
-2001-02-01,Consumer Price Index - All Urban Consumers,175.8
-2001-03-01,Consumer Price Index - All Urban Consumers,176.2
-2001-04-01,Consumer Price Index - All Urban Consumers,176.9
-2001-05-01,Consumer Price Index - All Urban Consumers,177.7
-2001-06-01,Consumer Price Index - All Urban Consumers,178.0
-2001-07-01,Consumer Price Index - All Urban Consumers,177.5
-2001-08-01,Consumer Price Index - All Urban Consumers,177.5
-2001-09-01,Consumer Price Index - All Urban Consumers,178.3
-2001-10-01,Consumer Price Index - All Urban Consumers,177.7
-2001-11-01,Consumer Price Index - All Urban Consumers,177.4
-2001-12-01,Consumer Price Index - All Urban Consumers,176.7
-2002-01-01,Consumer Price Index - All Urban Consumers,177.1
-2002-02-01,Consumer Price Index - All Urban Consumers,177.8
-2002-03-01,Consumer Price Index - All Urban Consumers,178.8
-2002-04-01,Consumer Price Index - All Urban Consumers,179.8
-2002-05-01,Consumer Price Index - All Urban Consumers,179.8
-2002-06-01,Consumer Price Index - All Urban Consumers,179.9
-2002-07-01,Consumer Price Index - All Urban Consumers,180.1
-2002-08-01,Consumer Price Index - All Urban Consumers,180.7
-2002-09-01,Consumer Price Index - All Urban Consumers,181.0
-2002-10-01,Consumer Price Index - All Urban Consumers,181.3
-2002-11-01,Consumer Price Index - All Urban Consumers,181.3
-2002-12-01,Consumer Price Index - All Urban Consumers,180.9
-2003-01-01,Consumer Price Index - All Urban Consumers,181.7
-2003-02-01,Consumer Price Index - All Urban Consumers,183.1
-2003-03-01,Consumer Price Index - All Urban Consumers,184.2
-2003-04-01,Consumer Price Index - All Urban Consumers,183.8
-2003-05-01,Consumer Price Index - All Urban Consumers,183.5
-2003-06-01,Consumer Price Index - All Urban Consumers,183.7
-2003-07-01,Consumer Price Index - All Urban Consumers,183.9
-2003-08-01,Consumer Price Index - All Urban Consumers,184.6
-2003-09-01,Consumer Price Index - All Urban Consumers,185.2
-2003-10-01,Consumer Price Index - All Urban Consumers,185.0
-2003-11-01,Consumer Price Index - All Urban Consumers,184.5
-2003-12-01,Consumer Price Index - All Urban Consumers,184.3
-2004-01-01,Consumer Price Index - All Urban Consumers,185.2
-2004-02-01,Consumer Price Index - All Urban Consumers,186.2
-2004-03-01,Consumer Price Index - All Urban Consumers,187.4
-2004-04-01,Consumer Price Index - All Urban Consumers,188.0
-2004-05-01,Consumer Price Index - All Urban Consumers,189.1
-2004-06-01,Consumer Price Index - All Urban Consumers,189.7
-2004-07-01,Consumer Price Index - All Urban Consumers,189.4
-2004-08-01,Consumer Price Index - All Urban Consumers,189.5
-2004-09-01,Consumer Price Index - All Urban Consumers,189.9
-2004-10-01,Consumer Price Index - All Urban Consumers,190.9
-2004-11-01,Consumer Price Index - All Urban Consumers,191.0
-2004-12-01,Consumer Price Index - All Urban Consumers,190.3
-2005-01-01,Consumer Price Index - All Urban Consumers,190.7
-2005-02-01,Consumer Price Index - All Urban Consumers,191.8
-2005-03-01,Consumer Price Index - All Urban Consumers,193.3
-2005-04-01,Consumer Price Index - All Urban Consumers,194.6
-2005-05-01,Consumer Price Index - All Urban Consumers,194.4
-2005-06-01,Consumer Price Index - All Urban Consumers,194.5
-2005-07-01,Consumer Price Index - All Urban Consumers,195.4
-2005-08-01,Consumer Price Index - All Urban Consumers,196.4
-2005-09-01,Consumer Price Index - All Urban Consumers,198.8
-2005-10-01,Consumer Price Index - All Urban Consumers,199.2
-2005-11-01,Consumer Price Index - All Urban Consumers,197.6
-2005-12-01,Consumer Price Index - All Urban Consumers,196.8
+2020-01-01,Average Hourly Earnings Private,28.43
+2020-02-01,Average Hourly Earnings Private,28.54
+2020-03-01,Average Hourly Earnings Private,28.74
+2020-04-01,Average Hourly Earnings Private,30.04
+2020-05-01,Average Hourly Earnings Private,29.72
+2020-06-01,Average Hourly Earnings Private,29.38
+2020-07-01,Average Hourly Earnings Private,29.39
+2020-08-01,Average Hourly Earnings Private,29.5
+2020-09-01,Average Hourly Earnings Private,29.51
+2020-10-01,Average Hourly Earnings Private,29.55
+2020-11-01,Average Hourly Earnings Private,29.64
+2020-12-01,Average Hourly Earnings Private,29.91
+2021-01-01,Average Hourly Earnings Private,29.92
+2021-02-01,Average Hourly Earnings Private,30.07
+2021-03-01,Average Hourly Earnings Private,30.04
+2021-04-01,Average Hourly Earnings Private,30.23
+2021-05-01,Average Hourly Earnings Private,30.41
+2021-06-01,Average Hourly Earnings Private,30.55
+2021-07-01,Average Hourly Earnings Private,30.66
+2021-08-01,Average Hourly Earnings Private,30.79
+2021-09-01,Average Hourly Earnings Private,30.96
+2021-10-01,Average Hourly Earnings Private,31.15
+2021-11-01,Average Hourly Earnings Private,31.25
+2021-12-01,Average Hourly Earnings Private,31.41
+2022-01-01,Average Hourly Earnings Private,31.62
+2022-02-01,Average Hourly Earnings Private,31.66
+2022-03-01,Average Hourly Earnings Private,31.82
+2022-04-01,Average Hourly Earnings Private,31.96
+2022-05-01,Average Hourly Earnings Private,32.1
+2022-06-01,Average Hourly Earnings Private,32.2
+2022-07-01,Average Hourly Earnings Private,32.35
+2022-08-01,Average Hourly Earnings Private,32.44
+2022-09-01,Average Hourly Earnings Private,32.55
+2022-10-01,Average Hourly Earnings Private,32.7
+2022-11-01,Average Hourly Earnings Private,32.84
+2022-12-01,Average Hourly Earnings Private,32.96
+2023-01-01,Average Hourly Earnings Private,33.05
+2023-02-01,Average Hourly Earnings Private,33.16
+2023-03-01,Average Hourly Earnings Private,33.28
+2023-04-01,Average Hourly Earnings Private,33.42
+2023-05-01,Average Hourly Earnings Private,33.52
+2023-06-01,Average Hourly Earnings Private,33.69
+2023-07-01,Average Hourly Earnings Private,33.84
+2023-08-01,Average Hourly Earnings Private,33.89
+2023-09-01,Average Hourly Earnings Private,33.99
+2023-10-01,Average Hourly Earnings Private,34.07
+2023-11-01,Average Hourly Earnings Private,34.19
+2023-12-01,Average Hourly Earnings Private,34.31
+2024-01-01,Average Hourly Earnings Private,34.47
+2024-02-01,Average Hourly Earnings Private,34.54
+2024-03-01,Average Hourly Earnings Private,34.67
+2024-04-01,Average Hourly Earnings Private,34.75
+2024-05-01,Average Hourly Earnings Private,34.89
+2024-06-01,Average Hourly Earnings Private,35.0
+2024-07-01,Average Hourly Earnings Private,35.07
+2024-08-01,Average Hourly Earnings Private,35.23
+2024-09-01,Average Hourly Earnings Private,35.33
+2024-10-01,Average Hourly Earnings Private,35.48
+2024-11-01,Average Hourly Earnings Private,35.61
+2024-12-01,Average Hourly Earnings Private,35.68
+2025-01-01,Average Hourly Earnings Private,35.83
+2025-02-01,Average Hourly Earnings Private,35.9
+2025-03-01,Average Hourly Earnings Private,36.02
+2025-04-01,Average Hourly Earnings Private,36.08
+2025-05-01,Average Hourly Earnings Private,36.23
+2025-06-01,Average Hourly Earnings Private,36.31
+2025-07-01,Average Hourly Earnings Private,36.43
+2025-08-01,Average Hourly Earnings Private,36.58
+2025-09-01,Average Hourly Earnings Private,36.67
 2006-01-01,Consumer Price Index - All Urban Consumers,198.3
 2006-02-01,Consumer Price Index - All Urban Consumers,198.7
 2006-03-01,Consumer Price Index - All Urban Consumers,199.8
@@ -405,78 +402,75 @@ Date,Series,Value
 2019-10-01,Consumer Price Index - All Urban Consumers,257.346
 2019-11-01,Consumer Price Index - All Urban Consumers,257.208
 2019-12-01,Consumer Price Index - All Urban Consumers,256.974
-2000-01-01,Civilian Labor Force,142267000.0
-2000-02-01,Civilian Labor Force,142456000.0
-2000-03-01,Civilian Labor Force,142434000.0
-2000-04-01,Civilian Labor Force,142751000.0
-2000-05-01,Civilian Labor Force,142388000.0
-2000-06-01,Civilian Labor Force,142591000.0
-2000-07-01,Civilian Labor Force,142278000.0
-2000-08-01,Civilian Labor Force,142514000.0
-2000-09-01,Civilian Labor Force,142518000.0
-2000-10-01,Civilian Labor Force,142622000.0
-2000-11-01,Civilian Labor Force,142962000.0
-2000-12-01,Civilian Labor Force,143248000.0
-2001-01-01,Civilian Labor Force,143800000.0
-2001-02-01,Civilian Labor Force,143701000.0
-2001-03-01,Civilian Labor Force,143924000.0
-2001-04-01,Civilian Labor Force,143569000.0
-2001-05-01,Civilian Labor Force,143318000.0
-2001-06-01,Civilian Labor Force,143357000.0
-2001-07-01,Civilian Labor Force,143654000.0
-2001-08-01,Civilian Labor Force,143284000.0
-2001-09-01,Civilian Labor Force,143989000.0
-2001-10-01,Civilian Labor Force,144086000.0
-2001-11-01,Civilian Labor Force,144240000.0
-2001-12-01,Civilian Labor Force,144305000.0
-2002-01-01,Civilian Labor Force,143883000.0
-2002-02-01,Civilian Labor Force,144653000.0
-2002-03-01,Civilian Labor Force,144481000.0
-2002-04-01,Civilian Labor Force,144725000.0
-2002-05-01,Civilian Labor Force,144938000.0
-2002-06-01,Civilian Labor Force,144808000.0
-2002-07-01,Civilian Labor Force,144803000.0
-2002-08-01,Civilian Labor Force,145009000.0
-2002-09-01,Civilian Labor Force,145552000.0
-2002-10-01,Civilian Labor Force,145314000.0
-2002-11-01,Civilian Labor Force,145041000.0
-2002-12-01,Civilian Labor Force,145066000.0
-2003-01-01,Civilian Labor Force,145937000.0
-2003-02-01,Civilian Labor Force,146100000.0
-2003-03-01,Civilian Labor Force,146022000.0
-2003-04-01,Civilian Labor Force,146474000.0
-2003-05-01,Civilian Labor Force,146500000.0
-2003-06-01,Civilian Labor Force,147056000.0
-2003-07-01,Civilian Labor Force,146485000.0
-2003-08-01,Civilian Labor Force,146445000.0
-2003-09-01,Civilian Labor Force,146530000.0
-2003-10-01,Civilian Labor Force,146716000.0
-2003-11-01,Civilian Labor Force,147000000.0
-2003-12-01,Civilian Labor Force,146729000.0
-2004-01-01,Civilian Labor Force,146842000.0
-2004-02-01,Civilian Labor Force,146709000.0
-2004-03-01,Civilian Labor Force,146944000.0
-2004-04-01,Civilian Labor Force,146850000.0
-2004-05-01,Civilian Labor Force,147065000.0
-2004-06-01,Civilian Labor Force,147460000.0
-2004-07-01,Civilian Labor Force,147692000.0
-2004-08-01,Civilian Labor Force,147564000.0
-2004-09-01,Civilian Labor Force,147415000.0
-2004-10-01,Civilian Labor Force,147793000.0
-2004-11-01,Civilian Labor Force,148162000.0
-2004-12-01,Civilian Labor Force,148059000.0
-2005-01-01,Civilian Labor Force,148029000.0
-2005-02-01,Civilian Labor Force,148364000.0
-2005-03-01,Civilian Labor Force,148391000.0
-2005-04-01,Civilian Labor Force,148926000.0
-2005-05-01,Civilian Labor Force,149261000.0
-2005-06-01,Civilian Labor Force,149238000.0
-2005-07-01,Civilian Labor Force,149432000.0
-2005-08-01,Civilian Labor Force,149779000.0
-2005-09-01,Civilian Labor Force,149954000.0
-2005-10-01,Civilian Labor Force,150001000.0
-2005-11-01,Civilian Labor Force,150065000.0
-2005-12-01,Civilian Labor Force,150030000.0
+2020-01-01,Consumer Price Index - All Urban Consumers,257.971
+2020-02-01,Consumer Price Index - All Urban Consumers,258.678
+2020-03-01,Consumer Price Index - All Urban Consumers,258.115
+2020-04-01,Consumer Price Index - All Urban Consumers,256.389
+2020-05-01,Consumer Price Index - All Urban Consumers,256.394
+2020-06-01,Consumer Price Index - All Urban Consumers,257.797
+2020-07-01,Consumer Price Index - All Urban Consumers,259.101
+2020-08-01,Consumer Price Index - All Urban Consumers,259.918
+2020-09-01,Consumer Price Index - All Urban Consumers,260.28
+2020-10-01,Consumer Price Index - All Urban Consumers,260.388
+2020-11-01,Consumer Price Index - All Urban Consumers,260.229
+2020-12-01,Consumer Price Index - All Urban Consumers,260.474
+2021-01-01,Consumer Price Index - All Urban Consumers,261.582
+2021-02-01,Consumer Price Index - All Urban Consumers,263.014
+2021-03-01,Consumer Price Index - All Urban Consumers,264.877
+2021-04-01,Consumer Price Index - All Urban Consumers,267.054
+2021-05-01,Consumer Price Index - All Urban Consumers,269.195
+2021-06-01,Consumer Price Index - All Urban Consumers,271.696
+2021-07-01,Consumer Price Index - All Urban Consumers,273.003
+2021-08-01,Consumer Price Index - All Urban Consumers,273.567
+2021-09-01,Consumer Price Index - All Urban Consumers,274.31
+2021-10-01,Consumer Price Index - All Urban Consumers,276.589
+2021-11-01,Consumer Price Index - All Urban Consumers,277.948
+2021-12-01,Consumer Price Index - All Urban Consumers,278.802
+2022-01-01,Consumer Price Index - All Urban Consumers,281.148
+2022-02-01,Consumer Price Index - All Urban Consumers,283.716
+2022-03-01,Consumer Price Index - All Urban Consumers,287.504
+2022-04-01,Consumer Price Index - All Urban Consumers,289.109
+2022-05-01,Consumer Price Index - All Urban Consumers,292.296
+2022-06-01,Consumer Price Index - All Urban Consumers,296.311
+2022-07-01,Consumer Price Index - All Urban Consumers,296.276
+2022-08-01,Consumer Price Index - All Urban Consumers,296.171
+2022-09-01,Consumer Price Index - All Urban Consumers,296.808
+2022-10-01,Consumer Price Index - All Urban Consumers,298.012
+2022-11-01,Consumer Price Index - All Urban Consumers,297.711
+2022-12-01,Consumer Price Index - All Urban Consumers,296.797
+2023-01-01,Consumer Price Index - All Urban Consumers,299.17
+2023-02-01,Consumer Price Index - All Urban Consumers,300.84
+2023-03-01,Consumer Price Index - All Urban Consumers,301.836
+2023-04-01,Consumer Price Index - All Urban Consumers,303.363
+2023-05-01,Consumer Price Index - All Urban Consumers,304.127
+2023-06-01,Consumer Price Index - All Urban Consumers,305.109
+2023-07-01,Consumer Price Index - All Urban Consumers,305.691
+2023-08-01,Consumer Price Index - All Urban Consumers,307.026
+2023-09-01,Consumer Price Index - All Urban Consumers,307.789
+2023-10-01,Consumer Price Index - All Urban Consumers,307.671
+2023-11-01,Consumer Price Index - All Urban Consumers,307.051
+2023-12-01,Consumer Price Index - All Urban Consumers,306.746
+2024-01-01,Consumer Price Index - All Urban Consumers,308.417
+2024-02-01,Consumer Price Index - All Urban Consumers,310.326
+2024-03-01,Consumer Price Index - All Urban Consumers,312.332
+2024-04-01,Consumer Price Index - All Urban Consumers,313.548
+2024-05-01,Consumer Price Index - All Urban Consumers,314.069
+2024-06-01,Consumer Price Index - All Urban Consumers,314.175
+2024-07-01,Consumer Price Index - All Urban Consumers,314.54
+2024-08-01,Consumer Price Index - All Urban Consumers,314.796
+2024-09-01,Consumer Price Index - All Urban Consumers,315.301
+2024-10-01,Consumer Price Index - All Urban Consumers,315.664
+2024-11-01,Consumer Price Index - All Urban Consumers,315.493
+2024-12-01,Consumer Price Index - All Urban Consumers,315.605
+2025-01-01,Consumer Price Index - All Urban Consumers,317.671
+2025-02-01,Consumer Price Index - All Urban Consumers,319.082
+2025-03-01,Consumer Price Index - All Urban Consumers,319.799
+2025-04-01,Consumer Price Index - All Urban Consumers,320.795
+2025-05-01,Consumer Price Index - All Urban Consumers,321.465
+2025-06-01,Consumer Price Index - All Urban Consumers,322.561
+2025-07-01,Consumer Price Index - All Urban Consumers,323.048
+2025-08-01,Consumer Price Index - All Urban Consumers,323.976
+2025-09-01,Consumer Price Index - All Urban Consumers,324.8
 2006-01-01,Civilian Labor Force,150214000.0
 2006-02-01,Civilian Labor Force,150641000.0
 2006-03-01,Civilian Labor Force,150813000.0
@@ -645,78 +639,75 @@ Date,Series,Value
 2019-10-01,Civilian Labor Force,164416000.0
 2019-11-01,Civilian Labor Force,164496000.0
 2019-12-01,Civilian Labor Force,164699000.0
-2000-01-01,Total Nonfarm Employment,131011000.0
-2000-02-01,Total Nonfarm Employment,131121000.0
-2000-03-01,Total Nonfarm Employment,131604000.0
-2000-04-01,Total Nonfarm Employment,131883000.0
-2000-05-01,Total Nonfarm Employment,132105000.0
-2000-06-01,Total Nonfarm Employment,132062000.0
-2000-07-01,Total Nonfarm Employment,132228000.0
-2000-08-01,Total Nonfarm Employment,132234000.0
-2000-09-01,Total Nonfarm Employment,132338000.0
-2000-10-01,Total Nonfarm Employment,132352000.0
-2000-11-01,Total Nonfarm Employment,132556000.0
-2000-12-01,Total Nonfarm Employment,132716000.0
-2001-01-01,Total Nonfarm Employment,132703000.0
-2001-02-01,Total Nonfarm Employment,132788000.0
-2001-03-01,Total Nonfarm Employment,132751000.0
-2001-04-01,Total Nonfarm Employment,132457000.0
-2001-05-01,Total Nonfarm Employment,132409000.0
-2001-06-01,Total Nonfarm Employment,132299000.0
-2001-07-01,Total Nonfarm Employment,132171000.0
-2001-08-01,Total Nonfarm Employment,132021000.0
-2001-09-01,Total Nonfarm Employment,131763000.0
-2001-10-01,Total Nonfarm Employment,131452000.0
-2001-11-01,Total Nonfarm Employment,131144000.0
-2001-12-01,Total Nonfarm Employment,130983000.0
-2002-01-01,Total Nonfarm Employment,130859000.0
-2002-02-01,Total Nonfarm Employment,130736000.0
-2002-03-01,Total Nonfarm Employment,130722000.0
-2002-04-01,Total Nonfarm Employment,130615000.0
-2002-05-01,Total Nonfarm Employment,130632000.0
-2002-06-01,Total Nonfarm Employment,130673000.0
-2002-07-01,Total Nonfarm Employment,130583000.0
-2002-08-01,Total Nonfarm Employment,130582000.0
-2002-09-01,Total Nonfarm Employment,130503000.0
-2002-10-01,Total Nonfarm Employment,130617000.0
-2002-11-01,Total Nonfarm Employment,130616000.0
-2002-12-01,Total Nonfarm Employment,130465000.0
-2003-01-01,Total Nonfarm Employment,130573000.0
-2003-02-01,Total Nonfarm Employment,130441000.0
-2003-03-01,Total Nonfarm Employment,130235000.0
-2003-04-01,Total Nonfarm Employment,130172000.0
-2003-05-01,Total Nonfarm Employment,130196000.0
-2003-06-01,Total Nonfarm Employment,130185000.0
-2003-07-01,Total Nonfarm Employment,130184000.0
-2003-08-01,Total Nonfarm Employment,130153000.0
-2003-09-01,Total Nonfarm Employment,130253000.0
-2003-10-01,Total Nonfarm Employment,130440000.0
-2003-11-01,Total Nonfarm Employment,130481000.0
-2003-12-01,Total Nonfarm Employment,130589000.0
-2004-01-01,Total Nonfarm Employment,130756000.0
-2004-02-01,Total Nonfarm Employment,130820000.0
-2004-03-01,Total Nonfarm Employment,131139000.0
-2004-04-01,Total Nonfarm Employment,131412000.0
-2004-05-01,Total Nonfarm Employment,131697000.0
-2004-06-01,Total Nonfarm Employment,131794000.0
-2004-07-01,Total Nonfarm Employment,131853000.0
-2004-08-01,Total Nonfarm Employment,131940000.0
-2004-09-01,Total Nonfarm Employment,132091000.0
-2004-10-01,Total Nonfarm Employment,132431000.0
-2004-11-01,Total Nonfarm Employment,132504000.0
-2004-12-01,Total Nonfarm Employment,132629000.0
-2005-01-01,Total Nonfarm Employment,132781000.0
-2005-02-01,Total Nonfarm Employment,133033000.0
-2005-03-01,Total Nonfarm Employment,133152000.0
-2005-04-01,Total Nonfarm Employment,133519000.0
-2005-05-01,Total Nonfarm Employment,133689000.0
-2005-06-01,Total Nonfarm Employment,133947000.0
-2005-07-01,Total Nonfarm Employment,134300000.0
-2005-08-01,Total Nonfarm Employment,134503000.0
-2005-09-01,Total Nonfarm Employment,134554000.0
-2005-10-01,Total Nonfarm Employment,134643000.0
-2005-11-01,Total Nonfarm Employment,134999000.0
-2005-12-01,Total Nonfarm Employment,135158000.0
+2020-01-01,Civilian Labor Force,164377000.0
+2020-02-01,Civilian Labor Force,164467000.0
+2020-03-01,Civilian Labor Force,162559000.0
+2020-04-01,Civilian Labor Force,156269000.0
+2020-05-01,Civilian Labor Force,158101000.0
+2020-06-01,Civilian Labor Force,159994000.0
+2020-07-01,Civilian Labor Force,160132000.0
+2020-08-01,Civilian Labor Force,160706000.0
+2020-09-01,Civilian Labor Force,160174000.0
+2020-10-01,Civilian Labor Force,161003000.0
+2020-11-01,Civilian Labor Force,160629000.0
+2020-12-01,Civilian Labor Force,160745000.0
+2021-01-01,Civilian Labor Force,160088000.0
+2021-02-01,Civilian Labor Force,160184000.0
+2021-03-01,Civilian Labor Force,160400000.0
+2021-04-01,Civilian Labor Force,160843000.0
+2021-05-01,Civilian Labor Force,160800000.0
+2021-06-01,Civilian Labor Force,161197000.0
+2021-07-01,Civilian Labor Force,161504000.0
+2021-08-01,Civilian Labor Force,161527000.0
+2021-09-01,Civilian Labor Force,161495000.0
+2021-10-01,Civilian Labor Force,161754000.0
+2021-11-01,Civilian Labor Force,162281000.0
+2021-12-01,Civilian Labor Force,162497000.0
+2022-01-01,Civilian Labor Force,163627000.0
+2022-02-01,Civilian Labor Force,163899000.0
+2022-03-01,Civilian Labor Force,164220000.0
+2022-04-01,Civilian Labor Force,163893000.0
+2022-05-01,Civilian Labor Force,164362000.0
+2022-06-01,Civilian Labor Force,164046000.0
+2022-07-01,Civilian Labor Force,164026000.0
+2022-08-01,Civilian Labor Force,164654000.0
+2022-09-01,Civilian Labor Force,164602000.0
+2022-10-01,Civilian Labor Force,164648000.0
+2022-11-01,Civilian Labor Force,164450000.0
+2022-12-01,Civilian Labor Force,165025000.0
+2023-01-01,Civilian Labor Force,165964000.0
+2023-02-01,Civilian Labor Force,166358000.0
+2023-03-01,Civilian Labor Force,166651000.0
+2023-04-01,Civilian Labor Force,166725000.0
+2023-05-01,Civilian Labor Force,166886000.0
+2023-06-01,Civilian Labor Force,166937000.0
+2023-07-01,Civilian Labor Force,167103000.0
+2023-08-01,Civilian Labor Force,167759000.0
+2023-09-01,Civilian Labor Force,167767000.0
+2023-10-01,Civilian Labor Force,167690000.0
+2023-11-01,Civilian Labor Force,168140000.0
+2023-12-01,Civilian Labor Force,167439000.0
+2024-01-01,Civilian Labor Force,167339000.0
+2024-02-01,Civilian Labor Force,167475000.0
+2024-03-01,Civilian Labor Force,167922000.0
+2024-04-01,Civilian Labor Force,167988000.0
+2024-05-01,Civilian Labor Force,167799000.0
+2024-06-01,Civilian Labor Force,168005000.0
+2024-07-01,Civilian Labor Force,168315000.0
+2024-08-01,Civilian Labor Force,168496000.0
+2024-09-01,Civilian Labor Force,168703000.0
+2024-10-01,Civilian Labor Force,168428000.0
+2024-11-01,Civilian Labor Force,168304000.0
+2024-12-01,Civilian Labor Force,168547000.0
+2025-01-01,Civilian Labor Force,170744000.0
+2025-02-01,Civilian Labor Force,170359000.0
+2025-03-01,Civilian Labor Force,170591000.0
+2025-04-01,Civilian Labor Force,171135000.0
+2025-05-01,Civilian Labor Force,170510000.0
+2025-06-01,Civilian Labor Force,170380000.0
+2025-07-01,Civilian Labor Force,170342000.0
+2025-08-01,Civilian Labor Force,170778000.0
+2025-09-01,Civilian Labor Force,171248000.0
 2006-01-01,Total Nonfarm Employment,135426000.0
 2006-02-01,Total Nonfarm Employment,135731000.0
 2006-03-01,Total Nonfarm Employment,136036000.0
@@ -885,78 +876,75 @@ Date,Series,Value
 2019-10-01,Total Nonfarm Employment,151460000.0
 2019-11-01,Total Nonfarm Employment,151668000.0
 2019-12-01,Total Nonfarm Employment,151795000.0
-2000-01-01,Unemployment Rate (Seasonally Adjusted),4.0
-2000-02-01,Unemployment Rate (Seasonally Adjusted),4.1
-2000-03-01,Unemployment Rate (Seasonally Adjusted),4.0
-2000-04-01,Unemployment Rate (Seasonally Adjusted),3.8
-2000-05-01,Unemployment Rate (Seasonally Adjusted),4.0
-2000-06-01,Unemployment Rate (Seasonally Adjusted),4.0
-2000-07-01,Unemployment Rate (Seasonally Adjusted),4.0
-2000-08-01,Unemployment Rate (Seasonally Adjusted),4.1
-2000-09-01,Unemployment Rate (Seasonally Adjusted),3.9
-2000-10-01,Unemployment Rate (Seasonally Adjusted),3.9
-2000-11-01,Unemployment Rate (Seasonally Adjusted),3.9
-2000-12-01,Unemployment Rate (Seasonally Adjusted),3.9
-2001-01-01,Unemployment Rate (Seasonally Adjusted),4.2
-2001-02-01,Unemployment Rate (Seasonally Adjusted),4.2
-2001-03-01,Unemployment Rate (Seasonally Adjusted),4.3
-2001-04-01,Unemployment Rate (Seasonally Adjusted),4.4
-2001-05-01,Unemployment Rate (Seasonally Adjusted),4.3
-2001-06-01,Unemployment Rate (Seasonally Adjusted),4.5
-2001-07-01,Unemployment Rate (Seasonally Adjusted),4.6
-2001-08-01,Unemployment Rate (Seasonally Adjusted),4.9
-2001-09-01,Unemployment Rate (Seasonally Adjusted),5.0
-2001-10-01,Unemployment Rate (Seasonally Adjusted),5.3
-2001-11-01,Unemployment Rate (Seasonally Adjusted),5.5
-2001-12-01,Unemployment Rate (Seasonally Adjusted),5.7
-2002-01-01,Unemployment Rate (Seasonally Adjusted),5.7
-2002-02-01,Unemployment Rate (Seasonally Adjusted),5.7
-2002-03-01,Unemployment Rate (Seasonally Adjusted),5.7
-2002-04-01,Unemployment Rate (Seasonally Adjusted),5.9
-2002-05-01,Unemployment Rate (Seasonally Adjusted),5.8
-2002-06-01,Unemployment Rate (Seasonally Adjusted),5.8
-2002-07-01,Unemployment Rate (Seasonally Adjusted),5.8
-2002-08-01,Unemployment Rate (Seasonally Adjusted),5.7
-2002-09-01,Unemployment Rate (Seasonally Adjusted),5.7
-2002-10-01,Unemployment Rate (Seasonally Adjusted),5.7
-2002-11-01,Unemployment Rate (Seasonally Adjusted),5.9
-2002-12-01,Unemployment Rate (Seasonally Adjusted),6.0
-2003-01-01,Unemployment Rate (Seasonally Adjusted),5.8
-2003-02-01,Unemployment Rate (Seasonally Adjusted),5.9
-2003-03-01,Unemployment Rate (Seasonally Adjusted),5.9
-2003-04-01,Unemployment Rate (Seasonally Adjusted),6.0
-2003-05-01,Unemployment Rate (Seasonally Adjusted),6.1
-2003-06-01,Unemployment Rate (Seasonally Adjusted),6.3
-2003-07-01,Unemployment Rate (Seasonally Adjusted),6.2
-2003-08-01,Unemployment Rate (Seasonally Adjusted),6.1
-2003-09-01,Unemployment Rate (Seasonally Adjusted),6.1
-2003-10-01,Unemployment Rate (Seasonally Adjusted),6.0
-2003-11-01,Unemployment Rate (Seasonally Adjusted),5.8
-2003-12-01,Unemployment Rate (Seasonally Adjusted),5.7
-2004-01-01,Unemployment Rate (Seasonally Adjusted),5.7
-2004-02-01,Unemployment Rate (Seasonally Adjusted),5.6
-2004-03-01,Unemployment Rate (Seasonally Adjusted),5.8
-2004-04-01,Unemployment Rate (Seasonally Adjusted),5.6
-2004-05-01,Unemployment Rate (Seasonally Adjusted),5.6
-2004-06-01,Unemployment Rate (Seasonally Adjusted),5.6
-2004-07-01,Unemployment Rate (Seasonally Adjusted),5.5
-2004-08-01,Unemployment Rate (Seasonally Adjusted),5.4
-2004-09-01,Unemployment Rate (Seasonally Adjusted),5.4
-2004-10-01,Unemployment Rate (Seasonally Adjusted),5.5
-2004-11-01,Unemployment Rate (Seasonally Adjusted),5.4
-2004-12-01,Unemployment Rate (Seasonally Adjusted),5.4
-2005-01-01,Unemployment Rate (Seasonally Adjusted),5.3
-2005-02-01,Unemployment Rate (Seasonally Adjusted),5.4
-2005-03-01,Unemployment Rate (Seasonally Adjusted),5.2
-2005-04-01,Unemployment Rate (Seasonally Adjusted),5.2
-2005-05-01,Unemployment Rate (Seasonally Adjusted),5.1
-2005-06-01,Unemployment Rate (Seasonally Adjusted),5.0
-2005-07-01,Unemployment Rate (Seasonally Adjusted),5.0
-2005-08-01,Unemployment Rate (Seasonally Adjusted),4.9
-2005-09-01,Unemployment Rate (Seasonally Adjusted),5.0
-2005-10-01,Unemployment Rate (Seasonally Adjusted),5.0
-2005-11-01,Unemployment Rate (Seasonally Adjusted),5.0
-2005-12-01,Unemployment Rate (Seasonally Adjusted),4.9
+2020-01-01,Total Nonfarm Employment,152031000.0
+2020-02-01,Total Nonfarm Employment,152292000.0
+2020-03-01,Total Nonfarm Employment,150895000.0
+2020-04-01,Total Nonfarm Employment,130424000.0
+2020-05-01,Total Nonfarm Employment,133040000.0
+2020-06-01,Total Nonfarm Employment,137671000.0
+2020-07-01,Total Nonfarm Employment,139255000.0
+2020-08-01,Total Nonfarm Employment,140819000.0
+2020-09-01,Total Nonfarm Employment,141770000.0
+2020-10-01,Total Nonfarm Employment,142461000.0
+2020-11-01,Total Nonfarm Employment,142731000.0
+2020-12-01,Total Nonfarm Employment,142548000.0
+2021-01-01,Total Nonfarm Employment,142913000.0
+2021-02-01,Total Nonfarm Employment,143422000.0
+2021-03-01,Total Nonfarm Employment,144246000.0
+2021-04-01,Total Nonfarm Employment,144611000.0
+2021-05-01,Total Nonfarm Employment,145032000.0
+2021-06-01,Total Nonfarm Employment,145828000.0
+2021-07-01,Total Nonfarm Employment,146759000.0
+2021-08-01,Total Nonfarm Employment,147246000.0
+2021-09-01,Total Nonfarm Employment,147712000.0
+2021-10-01,Total Nonfarm Employment,148569000.0
+2021-11-01,Total Nonfarm Employment,149206000.0
+2021-12-01,Total Nonfarm Employment,149781000.0
+2022-01-01,Total Nonfarm Employment,150006000.0
+2022-02-01,Total Nonfarm Employment,150875000.0
+2022-03-01,Total Nonfarm Employment,151346000.0
+2022-04-01,Total Nonfarm Employment,151651000.0
+2022-05-01,Total Nonfarm Employment,151892000.0
+2022-06-01,Total Nonfarm Employment,152353000.0
+2022-07-01,Total Nonfarm Employment,153049000.0
+2022-08-01,Total Nonfarm Employment,153286000.0
+2022-09-01,Total Nonfarm Employment,153513000.0
+2022-10-01,Total Nonfarm Employment,153913000.0
+2022-11-01,Total Nonfarm Employment,154210000.0
+2022-12-01,Total Nonfarm Employment,154336000.0
+2023-01-01,Total Nonfarm Employment,154780000.0
+2023-02-01,Total Nonfarm Employment,155086000.0
+2023-03-01,Total Nonfarm Employment,155171000.0
+2023-04-01,Total Nonfarm Employment,155387000.0
+2023-05-01,Total Nonfarm Employment,155614000.0
+2023-06-01,Total Nonfarm Employment,155871000.0
+2023-07-01,Total Nonfarm Employment,156019000.0
+2023-08-01,Total Nonfarm Employment,156176000.0
+2023-09-01,Total Nonfarm Employment,156334000.0
+2023-10-01,Total Nonfarm Employment,156520000.0
+2023-11-01,Total Nonfarm Employment,156661000.0
+2023-12-01,Total Nonfarm Employment,156930000.0
+2024-01-01,Total Nonfarm Employment,157049000.0
+2024-02-01,Total Nonfarm Employment,157271000.0
+2024-03-01,Total Nonfarm Employment,157517000.0
+2024-04-01,Total Nonfarm Employment,157635000.0
+2024-05-01,Total Nonfarm Employment,157828000.0
+2024-06-01,Total Nonfarm Employment,157915000.0
+2024-07-01,Total Nonfarm Employment,158003000.0
+2024-08-01,Total Nonfarm Employment,158074000.0
+2024-09-01,Total Nonfarm Employment,158314000.0
+2024-10-01,Total Nonfarm Employment,158358000.0
+2024-11-01,Total Nonfarm Employment,158619000.0
+2024-12-01,Total Nonfarm Employment,158942000.0
+2025-01-01,Total Nonfarm Employment,159053000.0
+2025-02-01,Total Nonfarm Employment,159155000.0
+2025-03-01,Total Nonfarm Employment,159275000.0
+2025-04-01,Total Nonfarm Employment,159433000.0
+2025-05-01,Total Nonfarm Employment,159452000.0
+2025-06-01,Total Nonfarm Employment,159439000.0
+2025-07-01,Total Nonfarm Employment,159511000.0
+2025-08-01,Total Nonfarm Employment,159507000.0
+2025-09-01,Total Nonfarm Employment,159626000.0
 2006-01-01,Unemployment Rate (Seasonally Adjusted),4.7
 2006-02-01,Unemployment Rate (Seasonally Adjusted),4.8
 2006-03-01,Unemployment Rate (Seasonally Adjusted),4.7
@@ -1125,3 +1113,72 @@ Date,Series,Value
 2019-10-01,Unemployment Rate (Seasonally Adjusted),3.6
 2019-11-01,Unemployment Rate (Seasonally Adjusted),3.6
 2019-12-01,Unemployment Rate (Seasonally Adjusted),3.6
+2020-01-01,Unemployment Rate (Seasonally Adjusted),3.6
+2020-02-01,Unemployment Rate (Seasonally Adjusted),3.5
+2020-03-01,Unemployment Rate (Seasonally Adjusted),4.4
+2020-04-01,Unemployment Rate (Seasonally Adjusted),14.8
+2020-05-01,Unemployment Rate (Seasonally Adjusted),13.2
+2020-06-01,Unemployment Rate (Seasonally Adjusted),11.0
+2020-07-01,Unemployment Rate (Seasonally Adjusted),10.2
+2020-08-01,Unemployment Rate (Seasonally Adjusted),8.4
+2020-09-01,Unemployment Rate (Seasonally Adjusted),7.8
+2020-10-01,Unemployment Rate (Seasonally Adjusted),6.9
+2020-11-01,Unemployment Rate (Seasonally Adjusted),6.7
+2020-12-01,Unemployment Rate (Seasonally Adjusted),6.7
+2021-01-01,Unemployment Rate (Seasonally Adjusted),6.4
+2021-02-01,Unemployment Rate (Seasonally Adjusted),6.2
+2021-03-01,Unemployment Rate (Seasonally Adjusted),6.1
+2021-04-01,Unemployment Rate (Seasonally Adjusted),6.1
+2021-05-01,Unemployment Rate (Seasonally Adjusted),5.8
+2021-06-01,Unemployment Rate (Seasonally Adjusted),5.9
+2021-07-01,Unemployment Rate (Seasonally Adjusted),5.4
+2021-08-01,Unemployment Rate (Seasonally Adjusted),5.1
+2021-09-01,Unemployment Rate (Seasonally Adjusted),4.7
+2021-10-01,Unemployment Rate (Seasonally Adjusted),4.5
+2021-11-01,Unemployment Rate (Seasonally Adjusted),4.2
+2021-12-01,Unemployment Rate (Seasonally Adjusted),3.9
+2022-01-01,Unemployment Rate (Seasonally Adjusted),4.0
+2022-02-01,Unemployment Rate (Seasonally Adjusted),3.8
+2022-03-01,Unemployment Rate (Seasonally Adjusted),3.7
+2022-04-01,Unemployment Rate (Seasonally Adjusted),3.7
+2022-05-01,Unemployment Rate (Seasonally Adjusted),3.6
+2022-06-01,Unemployment Rate (Seasonally Adjusted),3.6
+2022-07-01,Unemployment Rate (Seasonally Adjusted),3.5
+2022-08-01,Unemployment Rate (Seasonally Adjusted),3.6
+2022-09-01,Unemployment Rate (Seasonally Adjusted),3.5
+2022-10-01,Unemployment Rate (Seasonally Adjusted),3.6
+2022-11-01,Unemployment Rate (Seasonally Adjusted),3.6
+2022-12-01,Unemployment Rate (Seasonally Adjusted),3.5
+2023-01-01,Unemployment Rate (Seasonally Adjusted),3.5
+2023-02-01,Unemployment Rate (Seasonally Adjusted),3.6
+2023-03-01,Unemployment Rate (Seasonally Adjusted),3.5
+2023-04-01,Unemployment Rate (Seasonally Adjusted),3.4
+2023-05-01,Unemployment Rate (Seasonally Adjusted),3.6
+2023-06-01,Unemployment Rate (Seasonally Adjusted),3.6
+2023-07-01,Unemployment Rate (Seasonally Adjusted),3.5
+2023-08-01,Unemployment Rate (Seasonally Adjusted),3.7
+2023-09-01,Unemployment Rate (Seasonally Adjusted),3.8
+2023-10-01,Unemployment Rate (Seasonally Adjusted),3.9
+2023-11-01,Unemployment Rate (Seasonally Adjusted),3.7
+2023-12-01,Unemployment Rate (Seasonally Adjusted),3.8
+2024-01-01,Unemployment Rate (Seasonally Adjusted),3.7
+2024-02-01,Unemployment Rate (Seasonally Adjusted),3.9
+2024-03-01,Unemployment Rate (Seasonally Adjusted),3.9
+2024-04-01,Unemployment Rate (Seasonally Adjusted),3.9
+2024-05-01,Unemployment Rate (Seasonally Adjusted),4.0
+2024-06-01,Unemployment Rate (Seasonally Adjusted),4.1
+2024-07-01,Unemployment Rate (Seasonally Adjusted),4.2
+2024-08-01,Unemployment Rate (Seasonally Adjusted),4.2
+2024-09-01,Unemployment Rate (Seasonally Adjusted),4.1
+2024-10-01,Unemployment Rate (Seasonally Adjusted),4.1
+2024-11-01,Unemployment Rate (Seasonally Adjusted),4.2
+2024-12-01,Unemployment Rate (Seasonally Adjusted),4.1
+2025-01-01,Unemployment Rate (Seasonally Adjusted),4.0
+2025-02-01,Unemployment Rate (Seasonally Adjusted),4.1
+2025-03-01,Unemployment Rate (Seasonally Adjusted),4.2
+2025-04-01,Unemployment Rate (Seasonally Adjusted),4.2
+2025-05-01,Unemployment Rate (Seasonally Adjusted),4.2
+2025-06-01,Unemployment Rate (Seasonally Adjusted),4.1
+2025-07-01,Unemployment Rate (Seasonally Adjusted),4.2
+2025-08-01,Unemployment Rate (Seasonally Adjusted),4.3
+2025-09-01,Unemployment Rate (Seasonally Adjusted),4.4
