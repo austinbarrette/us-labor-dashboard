@@ -8,8 +8,11 @@ import os
 from datetime import datetime
 
 # SETUP
-os.makedirs('data', exist_ok=True)
-MASTER_FILE = 'data/labor_data_master.csv'
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # go up from src/
+DATA_DIR = os.path.join(ROOT_DIR, 'data')
+os.makedirs(DATA_DIR, exist_ok=True)
+MASTER_FILE = os.path.join(DATA_DIR, 'labor_data_master.csv')
+
 API_KEY = 'fe5517b08aec4f7da63b911b04a549aa'
 
 series_ids = {
