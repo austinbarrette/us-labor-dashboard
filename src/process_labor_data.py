@@ -81,6 +81,28 @@ new_data = fetch_bls_data(series_ids, start_year=start_year)
 # COMBINE DATA INTO MASTER
 combined_df = pd.concat([master_df, new_data]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
 
+# CLEAN / TRANSFORM DATA
+# Make copy
+combined_df = combined_df.copy()
+
+# Convert Average Hourly Earnings Private to $0.00 Data Type
+mask_earnings = combined_df['Series'] == 'Average Hourly Earnings Private'
+combined_df.loc[mask_earnings, 'Value'] = combined_df.loc[mask_earnings, 'Value'].apply(lambda x: f"${x:.2f}")
+
+# Civilian Labor Force & Total Nonfarm Employment - multiply by 1,000
+for s in ['Civilian Labor Force', 'Total Nonfarm Employment']:
+    mask = combined_df['Series'] == s
+    combined_df.loc[mask, 'Value'] = combined_df.loc[mask, 'Value'] * 1000
+
+# Unemployment Rate convert to 1 decimal, rename series
+mask_unemp = combined_df['Series'] == 'Unemployment Rate (SA)'
+combined_df.loc[mask_unemp, 'Value'] = combined_df.loc[mask_unemp, 'Value'].apply(lambda x: round(x, 1))
+combined_df.loc[mask_unemp, 'Series'] = 'Unemployment Rate (Seasonally Adjusted)'
+
+# CPI-U - rename series to be more dashboard friendly
+mask_cpi = combined_df['Series'] == 'CPI-U'
+combined_df.loc[mask_cpi, 'Series'] = 'Consumer Price Index - All Urban Consumers'
+
 # SAVE MASTER FILE
 combined_df.to_csv(MASTER_FILE, index=False)
 print(f"Master file updated: {MASTER_FILE} ({len(combined_df)} rows)")
