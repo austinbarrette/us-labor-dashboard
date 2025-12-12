@@ -1,3 +1,5 @@
+# fresh_pull_labor_data.py
+
 # Load libraries
 import requests
 import json
@@ -8,7 +10,6 @@ from datetime import datetime
 # SETUP
 os.makedirs('data', exist_ok=True)
 MASTER_FILE = 'data/labor_data_master.csv'
-RAW_FILE = 'data/labor_data.csv' 
 API_KEY = 'fe5517b08aec4f7da63b911b04a549aa'
 
 series_ids = {
@@ -21,7 +22,7 @@ series_ids = {
 
 # FUNCTIONS
 def fetch_bls_data(series_ids, start_year=2000):
-    """Fetch BLS data for all series"""
+    """Fetch BLS data for all series from start_year to current year."""
     end_year = datetime.now().year
     headers = {'Content-type': 'application/json'}
     data = json.dumps({
@@ -53,47 +54,29 @@ def fetch_bls_data(series_ids, start_year=2000):
     df = df.sort_values(['Series', 'Date']).reset_index(drop=True)
     return df
 
-# LOAD EXISTING MASTER
-if os.path.exists(MASTER_FILE):
-    master_df = pd.read_csv(MASTER_FILE, parse_dates=['Date'])
-else:
-    master_df = pd.DataFrame(columns=['Date', 'Series', 'Value'])
-
-# Merge raw CSV if exists
-if os.path.exists(RAW_FILE):
-    raw_df = pd.read_csv(RAW_FILE, parse_dates=['Date'])
-    master_df = pd.concat([master_df, raw_df]).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
-
-# FETCH NEW DATA
-new_data = fetch_bls_data(series_ids, start_year=2000)
-
-# COMBINE DATA
-combined_df = pd.concat(
-    [master_df.dropna(axis=1, how='all'), new_data.dropna(axis=1, how='all')]
-).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
-
-# ENSURE VALUE IS NUMERIC
-combined_df['Value'] = pd.to_numeric(combined_df['Value'], errors='coerce')
+# FETCH DATA FROM 2000
+combined_df = fetch_bls_data(series_ids, start_year=2000)
 
 # CLEAN / TRANSFORM DATA
-# 1. Round Average Hourly Earnings Private to 2 decimals
+
+# Round Average Hourly Earnings Private to 2 decimals
 mask_earnings = combined_df['Series'] == 'Average Hourly Earnings Private'
 combined_df.loc[mask_earnings, 'Value'] = combined_df.loc[mask_earnings, 'Value'].round(2)
 
-# 2. Multiply Civilian Labor Force & Total Nonfarm Employment by 1,000
+# Multiply Civilian Labor Force & Total Nonfarm Employment by 1,000
 for s in ['Civilian Labor Force', 'Total Nonfarm Employment']:
     mask = combined_df['Series'] == s
     combined_df.loc[mask, 'Value'] = combined_df.loc[mask, 'Value'] * 1000
 
-# 3. Unemployment Rate: 1 decimal, rename series
+# Unemployment Rate: 1 decimal, rename series
 mask_unemp = combined_df['Series'] == 'Unemployment Rate (SA)'
 combined_df.loc[mask_unemp, 'Value'] = combined_df.loc[mask_unemp, 'Value'].round(1)
 combined_df.loc[mask_unemp, 'Series'] = 'Unemployment Rate (Seasonally Adjusted)'
 
-# 4. CPI-U: rename series
+# CPI-U: rename series
 mask_cpi = combined_df['Series'] == 'CPI-U'
 combined_df.loc[mask_cpi, 'Series'] = 'Consumer Price Index - All Urban Consumers'
 
-# SAVE MASTER FILE
+# SAVE MASTER FILE (overwrite)
 combined_df.to_csv(MASTER_FILE, index=False)
-print(f"Master file updated: {MASTER_FILE} ({len(combined_df)} rows)")
+print(f"Master file created and cleaned: {MASTER_FILE} ({len(combined_df)} rows)")
