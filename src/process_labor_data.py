@@ -72,22 +72,25 @@ combined_df = pd.concat(
     [master_df.dropna(axis=1, how='all'), new_data.dropna(axis=1, how='all')]
 ).drop_duplicates(subset=['Date', 'Series']).reset_index(drop=True)
 
+# ENSURE VALUE IS NUMERIC
+combined_df['Value'] = pd.to_numeric(combined_df['Value'], errors='coerce')
+
 # CLEAN / TRANSFORM DATA
-# Round Average Hourly Earnings Private to 2 decimals
+# 1. Round Average Hourly Earnings Private to 2 decimals
 mask_earnings = combined_df['Series'] == 'Average Hourly Earnings Private'
 combined_df.loc[mask_earnings, 'Value'] = combined_df.loc[mask_earnings, 'Value'].round(2)
 
-# Multiply Civilian Labor Force & Total Nonfarm Employment by 1,000
+# 2. Multiply Civilian Labor Force & Total Nonfarm Employment by 1,000
 for s in ['Civilian Labor Force', 'Total Nonfarm Employment']:
     mask = combined_df['Series'] == s
     combined_df.loc[mask, 'Value'] = combined_df.loc[mask, 'Value'] * 1000
 
-# Unemployment Rate: 1 decimal, rename series
+# 3. Unemployment Rate: 1 decimal, rename series
 mask_unemp = combined_df['Series'] == 'Unemployment Rate (SA)'
 combined_df.loc[mask_unemp, 'Value'] = combined_df.loc[mask_unemp, 'Value'].round(1)
 combined_df.loc[mask_unemp, 'Series'] = 'Unemployment Rate (Seasonally Adjusted)'
 
-# CPI-U: rename series
+# 4. CPI-U: rename series
 mask_cpi = combined_df['Series'] == 'CPI-U'
 combined_df.loc[mask_cpi, 'Series'] = 'Consumer Price Index - All Urban Consumers'
 
