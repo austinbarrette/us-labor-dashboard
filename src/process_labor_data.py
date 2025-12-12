@@ -1,5 +1,3 @@
-# fresh_pull_labor_data.py
-
 # Load libraries
 import requests
 import json
