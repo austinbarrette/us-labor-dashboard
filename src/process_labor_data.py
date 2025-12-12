@@ -87,7 +87,7 @@ combined_df = combined_df.copy()
 
 # Convert Average Hourly Earnings Private to $0.00 Data Type
 mask_earnings = combined_df['Series'] == 'Average Hourly Earnings Private'
-combined_df.loc[mask_earnings, 'Value'] = combined_df.loc[mask_earnings, 'Value'].apply(lambda x: f"${x:.2f}")
+combined_df.loc[mask_earnings, 'Value'] = combined_df.loc[mask_earnings, 'Value'].round(2)
 
 # Civilian Labor Force & Total Nonfarm Employment - multiply by 1,000
 for s in ['Civilian Labor Force', 'Total Nonfarm Employment']:
