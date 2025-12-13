@@ -36,27 +36,15 @@ if compare_series != "None":
     compare_df = compare_df.set_index("Date")
     plot_df = plot_df.join(compare_df, how="outer")
 
-# AXIS FORMATTING LOGIC (MILLIONS)
-million_series = [
-    "Total Nonfarm Employment",
-    "Civilian Labor Force"
-]
-
-plot_df_chart = plot_df.copy()
-
-if primary_series in million_series:
-    plot_df_chart[primary_series] = plot_df_chart[primary_series] / 1_000_000
-
-if compare_series in million_series:
-    plot_df_chart[compare_series] = plot_df_chart[compare_series] / 1_000_000
-
 # LINE CHART TITLE WITH HTML
 # Set consistent font size for all lines
-font_size = "24px"
+font_size = "28px" 
 
 if compare_series == "None":
+    # Primary metric: show primary + "over Time"
     title_html = f"<div style='font-size:{font_size}; font-weight:bold;'>{primary_series} over Time</div>"
 else:
+    # Compare metric:
     title_html = (
         f"<div style='font-size:{font_size}; font-weight:bold;'>{primary_series}</div>"
         f"<div style='font-size:{font_size}; font-weight:bold;'>vs. {compare_series} over Time</div>"
@@ -66,36 +54,21 @@ st.markdown(title_html, unsafe_allow_html=True)
 
 # Plot lines with optional secondary axis
 if compare_series == "None":
-    lines = alt.Chart(plot_df_chart).mark_line(color="#1f77b4").encode(
+    lines = alt.Chart(plot_df.reset_index()).mark_line(color="#1f77b4").encode(
         x='Date:T',
-        y=alt.Y(
-            f'{primary_series}:Q',
-            title=None,
-            axis=alt.Axis(format="~s") if primary_series in million_series else alt.Axis()
-        ),
+        y=alt.Y(f'{primary_series}:Q', title=None),
         tooltip=['Date:T', f'{primary_series}:Q']
     )
 else:
-    base = alt.Chart(plot_df_chart).encode(x='Date:T')
-
+    base = alt.Chart(plot_df.reset_index()).encode(x='Date:T')
     line1 = base.mark_line(color="#1f77b4").encode(
-        y=alt.Y(
-            f'{primary_series}:Q',
-            title=primary_series,
-            axis=alt.Axis(format="~s") if primary_series in million_series else alt.Axis()
-        ),
+        y=alt.Y(f'{primary_series}:Q', axis=alt.Axis(title=primary_series)),
         tooltip=['Date:T', f'{primary_series}:Q']
     )
-
     line2 = base.mark_line(color="#ff7f0e").encode(
-        y=alt.Y(
-            f'{compare_series}:Q',
-            title=compare_series,
-            axis=alt.Axis(format="~s") if compare_series in million_series else alt.Axis()
-        ),
+        y=alt.Y(f'{compare_series}:Q', axis=alt.Axis(title=compare_series)),
         tooltip=['Date:T', f'{compare_series}:Q']
     )
-
     lines = alt.layer(line1, line2).resolve_scale(y='independent')
 
 st.altair_chart(lines, use_container_width=True)
