@@ -22,12 +22,12 @@ The dashboard focuses on core labor market indicators to provide insight into em
 
 ## Project Structure
 us-labor-dashboard/
-├── data/ # Historical and updated BLS datasets
-├── scripts/ # Python scripts to fetch and clean data
-├── dashboard/ # Streamlit app
-├── .github/ # GitHub Actions workflow
-├── README.md # Project overview
-└── requirements.txt # Python dependencies
+-data/ # Historical and updated BLS datasets
+- scripts/ # Python scripts to fetch and clean data
+- dashboard/ # Streamlit app
+- .github/ # GitHub Actions workflow
+- README.md # Project overview
+- requirements.txt # Python dependencies
 
 ## Getting Started on Personal Machine
 1. Clone the repository:
