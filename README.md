@@ -37,16 +37,11 @@ us-labor-dashboard/
 
 3. Run the Streamlit dashboard locally:
    streamlit run dashboard/app.py
+   or
+   view via streamlit app:  https://austinbarrette-us-labor-dashboard-srcdashboard-vvwzpm.streamlit.app/
 
-## Deliverables
-- Live Streamlit dashboard hosted via Streamlit Community Cloud
-- GitHub repository containing source code and data
-- Recorded presentation demonstrating dashboard features
-- Written report summarizing methodology and key findings
-
-## Future Work
-- Add more BLS series for deeper labor market insights
-- Incorporate forecasting or trend analysis
-- Improve interactive features and visualizations
+## Deliverable
+- Live Streamlit dashboard hosted via Streamlit Community Cloud:
+-    https://austinbarrette-us-labor-dashboard-srcdashboard-vvwzpm.streamlit.app/
 
 
