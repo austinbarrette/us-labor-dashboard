@@ -38,7 +38,7 @@ if compare_series != "None":
 
 # LINE CHART TITLE WITH HTML
 # Set consistent font size for all lines
-font_size = "28px" 
+font_size = "30px" 
 
 if compare_series == "None":
     # Primary metric: show primary + "over Time"
