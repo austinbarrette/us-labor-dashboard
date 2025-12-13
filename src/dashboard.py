@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-# ----------------------------
-# DASHBOARD TITLE
-# ----------------------------
+# CREATE DASHBOARD TITLE
 st.title("US Labor Market Dashboard")
 
 # URL to your master dataset
@@ -17,12 +15,10 @@ def load_data():
 
 df = load_data()
 
-# ----------------------------
 # SERIES SELECTION (SIDE-BY-SIDE)
-# ----------------------------
 st.markdown("### Choose U.S. Labor Metrics to Visualize:")
 
-# Create two columns for filters
+# Create two columns for filtering
 col1, col2 = st.columns(2)
 
 with col1:
@@ -31,9 +27,7 @@ with col2:
     compare_options = ["None"] + [s for s in sorted(df['Series'].unique()) if s != primary_series]
     compare_series = st.radio("Compare Metric (optional)", compare_options, key="compare")
 
-# ----------------------------
-# FILTER DATA
-# ----------------------------
+# FILTER DATA FILTERS (to prevent errors from occuring with choosing same dataset when comparing)
 plot_df = df[df['Series'] == primary_series][["Date", "Value"]].rename(columns={"Value": primary_series})
 plot_df = plot_df.set_index("Date")
 
@@ -42,17 +36,29 @@ if compare_series != "None":
     compare_df = compare_df.set_index("Date")
     plot_df = plot_df.join(compare_df, how="outer")
 
-# ----------------------------
+# AXIS FORMATTING LOGIC (MILLIONS)
+million_series = [
+    "Total Nonfarm Employment",
+    "Civilian Labor Force"
+]
+
+plot_df_chart = plot_df.copy()
+
+if primary_series in million_series:
+    plot_df_chart[primary_series] = plot_df_chart[primary_series] / 1_000_000
+
+if compare_series in million_series:
+    plot_df_chart[compare_series] = plot_df_chart[compare_series] / 1_000_000
+
 # LINE CHART TITLE WITH HTML
-# ----------------------------
 # Set consistent font size for all lines
-font_size = "28px"  # adjust as needed
+font_size = "28px" 
 
 if compare_series == "None":
-    # Single metric: show primary + "over Time"
+    # Primary metric: show primary + "over Time"
     title_html = f"<div style='font-size:{font_size}; font-weight:bold;'>{primary_series} over Time</div>"
 else:
-    # Compare metric selected: multi-line
+    # Compare metric:
     title_html = (
         f"<div style='font-size:{font_size}; font-weight:bold;'>{primary_series}</div>"
         f"<div style='font-size:{font_size}; font-weight:bold;'>vs. {compare_series} over Time</div>"
@@ -81,11 +87,9 @@ else:
 
 st.altair_chart(lines, use_container_width=True)
 
-# ----------------------------
 # DYNAMIC DATA TABLE
-# ----------------------------
 table_df = plot_df.reset_index()
-# Sort newest → oldest
+# Sort newest to oldest as default
 table_df = table_df.sort_values("Date", ascending=False)
 
 # Show all data, no title, dynamic column names
@@ -93,5 +97,5 @@ st.dataframe(
     table_df,
     use_container_width=True,
     hide_index=True,
-    height=400  # scrollable table
+    height=400  # set height for scrollable table
 )
